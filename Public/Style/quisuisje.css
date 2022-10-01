@@ -1,0 +1,338 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --path-image: "/Assets/";
+    --bgcolor-frame-parcours-palmares: #82C288;
+    --bgcolor-frame-formations-langues: #FE9C9C;
+    --bgcolor-onglet: #F8E806;
+    --color-text: black;
+}
+
+p,
+h1,
+h2,
+h3 {
+    color: var(--color-text);
+}
+
+/* 
+
+.debug {
+    border: 1px solid red;
+}
+
+.debug-fill {
+    background-color: red;
+} */
+
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    border: 30px solid black;
+    /* height: 1200px; */
+    font-family: 'Inter';
+
+
+}
+
+header {
+    /* width: 100%; */
+    height: 100px;
+    border: 2px solid red;
+    background-color: blue;
+}
+
+
+footer {
+    /* width: 100%; */
+    height: 50px;
+    border: 2px solid red;
+    background-color: blue;
+}
+
+.grid-main {
+    display: grid;
+    grid-gap: 40px;
+    margin: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+    grid-template-rows: 320px 320px;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.onglet {
+    border-radius: 10px 10px 0 0;
+    background-color: var(--bgcolor-onglet);
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    font-weight: bold;
+    opacity: 70%;
+    font-size: 22px;
+}
+
+.frame-palmares-parcours {
+    border-radius: 0px 10px 10px 10px;
+    background-color: var(--bgcolor-frame-parcours-palmares);
+
+    /* opacity: 25%; */
+    height: 93%;
+}
+
+.frame-formations-langues {
+    border-radius: 0px 10px 10px 10px;
+    background-color: var(--bgcolor-frame-formations-langues);
+    height: 93%;
+}
+
+
+.grid-palmares-frame {
+    /* border: 1px solid black; */
+    /* overflow: hidden; */
+}
+
+.grid-palmares-logo {
+    display: grid;
+    height: 80%;
+
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border: 5px solid blue; */
+    grid-gap: 5px;
+}
+
+.grid-coppaitalia {
+    background-size: 100% 100%;
+    background-image: url(/Assets/coppaitalia.png);
+
+}
+
+.grid-UAE {
+    background-size: 100% 100%;
+    background-image: url("/Assets/Coupe_du_monde_des_clubs_de_football_2010.png");
+}
+
+.grid-championL {
+    background-size: 100% 100%;
+    background-image: url("/Assets/Cl2009_logo.png");
+}
+
+.grid-copparey {
+    background-size: 100% 100%;
+    background-image: url("/Assets/Logo_Copa_del_Rey_2021.png");
+}
+
+.grid-mali {
+    background-size: 100% 100%;
+    background-image: url("/Assets/CANMALI.png");
+
+}
+
+.grid-JO {
+    background-size: 100% 100%;
+    background-image: url("/Assets/JO_2000.png");
+}
+
+
+.titre-palmares {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 40px; */
+    overflow: hidden;
+    /* margin-bottom: 100px; */
+}
+
+.titre-palmares h1 {
+    /* background-color: #178E23; */
+    margin: 40px;
+    color: var(--bgcolor-onglet);
+}
+
+.titre-palmares> :first-child {
+    display: inline-block;
+    /* modèle de boîte en ligne */
+    padding-right: 2em;
+    /* un peu d'espace pour la transition */
+    padding-left: 100%;
+    /* placement à droite du conteneur */
+    white-space: nowrap;
+    /* pas de passage à la ligne */
+    animation: defilement-rtl 30s infinite linear;
+}
+
+@keyframes defilement-rtl {
+    0% {
+        transform: translate3d(0, 0, 0);
+        /* position initiale à droite */
+    }
+
+    100% {
+        transform: translate3d(-100%, 0, 0);
+        /* position finale à gauche */
+    }
+}
+
+/* Grid Parcours */
+.grid-parcours {
+    display: grid;
+    height: 100%;
+    grid-template-rows: 4fr 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border: 5px solid blue; */
+    grid-gap: 5px;
+}
+
+
+.grid-img-parcours-intermilan {
+    background-size: 100% 100%;
+    background-image: url("/Assets/interMilan.jpeg");
+}
+
+
+.grid-img-parcours-fcb {
+    /* border: 2px solid red; */
+    /* background-size: cover; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("/Assets/logo-Barcelone.png");
+}
+
+.grid-img-parcours-rcd {
+    /* border: 2px solid red; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("/Assets/RCD.png");
+}
+
+
+.grid-parcours-club {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.grid-parcours-buts {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    align-items: center;
+
+}
+
+.grid-parcours-buts h2 {
+    color: white;
+    margin-right: 30px;
+}
+
+.grid-parcours-buts-ballon {
+    width: 60px;
+    height: 60px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("/Assets/ballon.png");
+
+}
+
+.grid-formations {
+    display: grid;
+    height: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    /* border: 5px solid blue; */
+    /* border: 1px solid black; */
+}
+
+
+.grid-formations-cadets-logo {
+    /* border: 1px solid red; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("/Assets/Camerounmaillot.png");
+}
+
+.grid-formations-cadets-text {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    /* color: var(--color-text); */
+    padding: 20px;
+}
+
+.grid-formations-kad-logo {
+    /* border: 1px solid red; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("/Assets/Kadji.png");
+}
+
+.grid-formations-kad-text {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    /* color: var(--color-text); */
+    padding: 20px;
+}
+
+
+.grid-formations-hac-logo {
+    /* border: 1px solid red; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("/Assets/Logo_Havre_AC.png");
+}
+
+.grid-formations-hac-text {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    /* color: var(--color-text); */
+    padding: 20px;
+}
+
+
+
+.grid-langues {
+    display: grid;
+    height: 100%;
+    /* height: 200px; */
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+.grid-langue-francais-logo {
+    height: 100px;
+    width: 150px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("/Assets/Flag_France.png");
+}
+
+
+.grid-langue-anglais-logo {
+    height: 100px;
+    width: 150px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("/Assets/Flag_UK.png");
+}
+
+
+.grid-langue-espagnol-logo {
+    height: 100px;
+    width: 150px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("/Assets/Flag_Spain.png");
+}
