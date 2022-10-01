@@ -5,47 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="Style/quisuisje.css" rel="stylesheet" type="text/css">
-    <!-- <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'> -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700" rel="stylesheet">
-
-    <title>Premier projet Wild Code School</title>
+    <link href="Quisuisje.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
 </head>
 
 <body>
 
-    <?php require_once("header.php"); ?>
+    <header>
+    </header>
 
     <main>
 
-        <!-- Section principale composé d'un grid de 4 sections-->
-        <section class="grid-main debug">
+        <div class="grid-main debug">
 
-            <!-- 1ere section pour les palmares-->
-            <section class="grid-palmares-frame">
+            <!-- Palmares Cellules -->
+            <div class="grid-main-palmares ">
+                <h3 class="onglet">PALMARES</h3>
 
-                <article>
-                    <p class="onglet">PALMARES</p>
-                </article>
+                <div class="frame-palmares-parcours ">
 
-                <!-- Frame principale des palmares -->
-                <section class="frame-palmares-parcours ">
-
-                    <!-- Grid des 6 logos  -->
-                    <section class="grid-palmares-logo">
-                        <article class="grid-coppaitalia"></article>
-                        <article class="grid-UAE"></article>
-                        <article class="grid-championL"></article>
-                        <article class="grid-copparey"></article>
-                        <article class="grid-mali"></article>
-                        <article class="grid-JO"></article>
-                    </section>
+                    <div class="grid-palmares">
+                        <div class="grid-coppaitalia"></div>
+                        <div class="grid-UAE"></div>
+                        <div class="grid-championL"></div>
+                        <div class="grid-copparey"></div>
+                        <div class="grid-mali"></div>
+                        <div class="grid-JO"></div>
+                    </div>
 
 
-                    <section class="titre-palmares">
-                        <article>
-                            <h1>2 Coupes d’Italie: 2009/10, 2010/11 (Inter)</h1>
-                            <!-- &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    <div class="titre-palmares">
+
+                        <h1>2 Coupes d’Italie: 2009/10, 2010/11 (Inter)</h1>
+                        <!-- &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
                             3 Champions League: 2005/06, 2008/09 (FC Barcelone), 2009/10 (Inter)
                             &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
                             3 Championnats d’Espagne: 2004/05, 2005/06, 2008/09 (FC Barcelone)
@@ -62,12 +54,10 @@
                             &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
                             Médaillé d’or aux J.O: 2000 (Cameroun)
                         </h3> -->
-                        </article>
-                    </section>
+                    </div>
 
-                </section>
-
-            </section>
+                </div>
+            </div>
 
 
             <!-- Formations  -->
@@ -173,15 +163,15 @@
                             <div class="grid-langue-espagnol-logo"></div>
                         </div>
 
-                        <div class="container-center">
+                        <div class="container-center debug1">
                             <h1>FRANCAIS</h1>
                         </div>
 
-                        <div class="container-center">
+                        <div class="container-center debug1">
                             <h1>ANGLAIS</h1>
                         </div>
 
-                        <div class="container-center">
+                        <div class="container-center debug1">
                             <h1>ESPAGNOL</h1>
                         </div>
 
@@ -191,11 +181,12 @@
 
             </div>
 
-        </section>
+        </div>
 
     </main>
 
-    <?php require_once("footer.php"); ?>
+    <footer>
+    </footer>
 
 </body>
 
