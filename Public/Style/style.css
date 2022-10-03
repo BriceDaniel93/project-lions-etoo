@@ -33,6 +33,12 @@
     align-items: center;
 }
 
+.h-bottom {
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-end;
+}
+
 
 .h-100pct {
     height: 100%;
@@ -95,10 +101,6 @@
 }
 
 
-.frame {
-    /* border: 1px solid blue; */
-}
-
 .grid2r2c {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -118,5 +120,13 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 3fr;
+    /* grid-gap: 2%; */
+}
+
+
+.grid3r3c {
+    display: grid;
+    grid-template-rows: 3fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     /* grid-gap: 2%; */
 }

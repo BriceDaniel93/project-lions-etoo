@@ -10,13 +10,6 @@ h3 {
 }
 
 
-.container-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
 .main-container {
     border: 30px solid black;
     font-family: var(--font);
@@ -44,19 +37,8 @@ footer {
 .main-frame {
     width: 100%;
     height: calc(100vh - 100px - 50px - 30px);
-    /* height: 500px; */
 }
 
-/* .onglet {
-    border-radius: 10px 10px 0 0;
-    background-color: var(--bgcolor-onglet);
-    padding: 10px;
-    text-align: center;
-    width: 25%;
-    font-weight: bold;
-    opacity: 70%;
-    font-size: 20px;
-} */
 
 .onglet {
     border-radius: 10px 10px 0 0;
@@ -70,27 +52,13 @@ footer {
 .frame-palmares-parcours {
     border-radius: 0px 10px 10px 10px;
     background-color: var(--bgcolor-frame-parcours-palmares);
-
-    /* opacity: 25%; */
-    height: 93%;
 }
 
 .frame-formations-langues {
     border-radius: 0px 10px 10px 10px;
     background-color: var(--bgcolor-frame-formations-langues);
-    height: 93%;
 }
 
-
-.grid-palmares-logo {
-    display: grid;
-    height: 80%;
-
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* border: 5px solid blue; */
-    grid-gap: 5px;
-}
 
 .img-coppaitalia {
     background-size: 100% 100%;
@@ -130,7 +98,6 @@ footer {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    /* margin-bottom: 100px; */
 }
 
 .bandeau-palmares h1 {
@@ -164,92 +131,41 @@ footer {
     }
 }
 
-/* Grid Parcours */
-.grid-parcours {
-    display: grid;
-    height: 100%;
-    grid-template-rows: 4fr 3fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* border: 5px solid blue; */
-    grid-gap: 5px;
-}
 
-
-.grid-img-parcours-intermilan {
+.img-intermilan {
     background-size: 100% 100%;
     background-image: url("/Assets/interMilan.jpeg");
 }
 
 
-.grid-img-parcours-fcb {
+.img-fcb {
     /* border: 2px solid red; */
     /* background-size: cover; */
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-image: url("/Assets/logo-Barcelone.png");
 }
 
-.grid-img-parcours-rcd {
+.img-rcd {
     /* border: 2px solid red; */
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-image: url("/Assets/RCD.png");
 }
 
 
-.grid-parcours-club {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
-.grid-parcours-buts {
-    display: flex;
-    justify-content: space-around;
-    /* border: 1px solid red; */
-    align-items: center;
-
-}
-
-.grid-parcours-buts h2 {
-    color: white;
-    margin-right: 30px;
-}
-
-.grid-parcours-buts-ballon {
-    width: 60px;
-    height: 60px;
+.img-ballon {
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-image: url("/Assets/ballon.png");
 
 }
-
-.grid-formations {
-    display: grid;
-    height: 100%;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 2fr;
-    /* border: 5px solid blue; */
-    /* border: 1px solid black; */
-}
-
 
 .img-cadets {
     /* border: 1px solid red; */
     background-size: 100% 100%;
     /* background-repeat: no-repeat; */
     background-image: url("/Assets/Camerounmaillot.png");
-}
-
-.grid-formations-cadets-text {
-    /* border: 1px solid red; */
-    display: flex;
-    align-items: center;
-    /* color: var(--color-text); */
-    padding: 20px;
 }
 
 .img-kadji {
@@ -259,15 +175,6 @@ footer {
     background-image: url("/Assets/Kadji.png");
 }
 
-.grid-formations-kad-text {
-    /* border: 1px solid red; */
-    display: flex;
-    align-items: center;
-    /* color: var(--color-text); */
-    padding: 20px;
-}
-
-
 .img-hac {
     /* border: 1px solid red; */
     background-size: 100% 100%;
@@ -275,48 +182,23 @@ footer {
     background-image: url("/Assets/Logo_Havre_AC.png");
 }
 
-.grid-formations-hac-text {
-    /* border: 1px solid red; */
-    display: flex;
-    align-items: center;
-    /* color: var(--color-text); */
-    padding: 20px;
-}
 
-
-
-.grid-langues {
-    display: grid;
-    height: 100%;
-    /* height: 200px; */
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-
-}
-
-
-.grid-langue-francais-logo {
-    height: 100px;
-    width: 150px;
+.img-francais {
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-image: url("/Assets/Flag_France.png");
 }
 
 
-.grid-langue-anglais-logo {
-    height: 100px;
-    width: 150px;
+.img-anglais {
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-image: url("/Assets/Flag_UK.png");
 }
 
 
-.grid-langue-espagnol-logo {
-    height: 100px;
-    width: 150px;
+.img-espagnol {
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-image: url("/Assets/Flag_Spain.png");
 }
