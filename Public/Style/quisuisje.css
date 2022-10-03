@@ -1,14 +1,5 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
-
-:root {
-    --path-image: "/Assets/";
-    --bgcolor-frame-parcours-palmares: #82C288;
-    --bgcolor-frame-formations-langues: #FE9C9C;
-    --bgcolor-onglet: #F8E806;
-    --color-text: black;
+.debug {
+    border: 1px solid red;
 }
 
 p,
@@ -18,15 +9,6 @@ h3 {
     color: var(--color-text);
 }
 
-/* 
-
-.debug {
-    border: 1px solid red;
-}
-
-.debug-fill {
-    background-color: red;
-} */
 
 .container-center {
     display: flex;
@@ -34,13 +16,15 @@ h3 {
     align-items: center;
 }
 
-body {
+
+.main-container {
     border: 30px solid black;
-    /* height: 1200px; */
-    font-family: 'Inter';
-
-
+    font-family: var(--font);
+    height: 100vh;
+    width: 100vw;
 }
+
+
 
 header {
     /* width: 100%; */
@@ -57,27 +41,31 @@ footer {
     background-color: blue;
 }
 
-.grid-main {
-    display: grid;
-    grid-gap: 40px;
-    margin: 40px;
-    margin-left: 20px;
-    margin-right: 10px;
-    grid-template-rows: 320px 320px;
-    grid-template-columns: 1fr 1fr;
+.main-frame {
+    width: 100%;
+    height: calc(100vh - 100px - 50px - 30px);
+    /* height: 500px; */
 }
 
-
-.onglet {
+/* .onglet {
     border-radius: 10px 10px 0 0;
     background-color: var(--bgcolor-onglet);
     padding: 10px;
     text-align: center;
-    width: 30%;
+    width: 25%;
     font-weight: bold;
     opacity: 70%;
-    font-size: 22px;
+    font-size: 20px;
+} */
+
+.onglet {
+    border-radius: 10px 10px 0 0;
+    background-color: var(--bgcolor-onglet);
+    opacity: 70%;
+    font-size: 20px;
 }
+
+
 
 .frame-palmares-parcours {
     border-radius: 0px 10px 10px 10px;
@@ -94,11 +82,6 @@ footer {
 }
 
 
-.grid-palmares-frame {
-    /* border: 1px solid black; */
-    /* overflow: hidden; */
-}
-
 .grid-palmares-logo {
     display: grid;
     height: 80%;
@@ -109,54 +92,55 @@ footer {
     grid-gap: 5px;
 }
 
-.grid-coppaitalia {
+.img-coppaitalia {
     background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
     background-image: url(/Assets/coppaitalia.png);
-
 }
 
-.grid-UAE {
+.img-UAE {
     background-size: 100% 100%;
     background-image: url("/Assets/Coupe_du_monde_des_clubs_de_football_2010.png");
 }
 
-.grid-championL {
+.img-championL {
     background-size: 100% 100%;
     background-image: url("/Assets/Cl2009_logo.png");
 }
 
-.grid-copparey {
+.img-copparey {
     background-size: 100% 100%;
     background-image: url("/Assets/Logo_Copa_del_Rey_2021.png");
 }
 
-.grid-mali {
+.img-mali {
     background-size: 100% 100%;
     background-image: url("/Assets/CANMALI.png");
 
 }
 
-.grid-JO {
+.img-JO {
     background-size: 100% 100%;
     background-image: url("/Assets/JO_2000.png");
 }
 
 
-.titre-palmares {
+.bandeau-palmares {
     display: flex;
     justify-content: center;
-    /* margin-top: 40px; */
+    align-items: center;
     overflow: hidden;
     /* margin-bottom: 100px; */
 }
 
-.titre-palmares h1 {
+.bandeau-palmares h1 {
     /* background-color: #178E23; */
-    margin: 40px;
+    /* margin: 40px; */
     color: var(--bgcolor-onglet);
+    font-size: 20px;
 }
 
-.titre-palmares> :first-child {
+.bandeau-palmares> :first-child {
     display: inline-block;
     /* modèle de boîte en ligne */
     padding-right: 2em;
@@ -253,10 +237,10 @@ footer {
 }
 
 
-.grid-formations-cadets-logo {
+.img-cadets {
     /* border: 1px solid red; */
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-image: url("/Assets/Camerounmaillot.png");
 }
 
@@ -268,10 +252,10 @@ footer {
     padding: 20px;
 }
 
-.grid-formations-kad-logo {
+.img-kadji {
     /* border: 1px solid red; */
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-image: url("/Assets/Kadji.png");
 }
 
@@ -284,10 +268,10 @@ footer {
 }
 
 
-.grid-formations-hac-logo {
+.img-hac {
     /* border: 1px solid red; */
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-image: url("/Assets/Logo_Havre_AC.png");
 }
 
