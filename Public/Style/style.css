@@ -4,7 +4,6 @@
 }
 
 :root {
-    --path-image: "/Assets/";
     --bgcolor-frame-parcours-palmares: #82C288;
     --bgcolor-frame-formations-langues: #FE9C9C;
     --bgcolor-onglet: #F8E806;
@@ -12,6 +11,7 @@
     --font: 'inter';
 }
 
+/*  CSS for quisuisje */
 
 .debug {
     border: 1px solid red;
@@ -213,17 +213,20 @@ footer {
     /* grid-gap: 2%; */
 }
 
-header{
+/* CSS for header */
+
+header {
     display: flex;
-    background: linear-gradient(#18391E, #01D758) ;
+    background: linear-gradient(#18391E, #01D758);
     border-top: solid;
     border-bottom: solid;
 }
 
-img{
+img {
     width: 100px;
     height: 100px;
 }
+
 nav {
     display: flex;
     justify-content: flex-end;
@@ -231,11 +234,11 @@ nav {
     width: 100%;
 }
 
-ul{
+ul {
     display: flex;
 }
 
-nav ul li{
+nav ul li {
     display: flex;
     align-items: center;
     list-style-type: none;
@@ -243,24 +246,26 @@ nav ul li{
 
 }
 
-a{
+li a {
     text-decoration: none;
-    color: white;
-    font-family: arial black, sans-serif;
+    color: var(--color-text);
+    /* font-family: arial black, sans-serif; */
+    font-family: var(--font);
     margin-right: 30px;
-    font-size: clamp(1rem, 3vw, 2rem );
+    font-size: clamp(1rem, 3vw, 1.5rem);
 }
 
-.boutton{
- margin-right: 45px;
+
+.boutton {
+    margin-right: 45px;
 }
 
-a:hover {
+li a:hover {
     text-decoration: underline;
 
 }
 
-p{
+p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,24 +273,26 @@ p{
     font-size: clamp(0.5rem, 3vw, 1.5rem);
 }
 
-@media screen and (min-width: 460px) and (max-width: 720px){
-    a:hover{
-    text-decoration: none;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 900px){
-
-   nav ul li{
-        margin-left: 30px;
-    }
-a:hover{
-    text-decoration: none;
-    }
-}
-
-@media screen and (min-width: 900px) and (max-width: 1024px){
-    a:hover{
+/* 
+@media screen and (min-width: 460px) and (max-width: 720px) {
+    li a:hover {
         text-decoration: none;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+
+    nav ul li {
+        margin-left: 30px;
+    }
+
+    li a:hover {
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+    li a:hover {
+        text-decoration: none;
+    }
+} */

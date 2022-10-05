@@ -180,3 +180,9 @@ h2 {
     border-radius: 10px;
     padding: 5px;
 }
+
+
+/* CSS Header */
+li a:hover {
+    text-decoration: underline;
+}
