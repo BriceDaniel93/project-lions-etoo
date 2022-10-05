@@ -74,6 +74,7 @@ footer {
 .bandeau-palmares h1 {
     /* background-color: #178E23; */
     /* margin: 40px; */
+    width: 100px;
     color: var(--bgcolor-onglet);
     font-size: 20px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -90,6 +91,18 @@ footer {
     white-space: nowrap;
     /* pas de passage à la ligne */
     animation: defilement-rtl 30s infinite linear;
+}
+
+.bandeau-palmares :after {
+    display: inline-block;
+    /* modèle de boîte en ligne */
+    padding-right: 2em;
+    /* un peu d'espace pour la transition */
+    padding-left: 100%;
+    /* placement à droite du conteneur */
+    white-space: nowrap;
+    /* pas de passage à la ligne */
+    animation: defilement-rtl 300s infinite linear;
 }
 
 @keyframes defilement-rtl {
