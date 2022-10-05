@@ -12,15 +12,6 @@
     --font: 'inter';
 }
 
-.bgcolor-palmares-parcours {
-    background-color: var(--bgcolor-frame-parcours-palmares);
-}
-
-
-.bgcolor-formations-langues {
-    background-color: var(--bgcolor-frame-formations-langues);
-}
-
 .w-center {
     display: flex;
     justify-content: center;
@@ -112,7 +103,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    /* grid-gap: 2%; */
+    /* grid-gap: 5%; */
 }
 
 

@@ -16,262 +16,270 @@
 
     <main>
 
-        <section class="main-container">
+        <!-- Section principale entre header et footer-->
+        <section class="frame-window">
 
             <?php require_once("header.php"); ?>
 
-            <!-- Section principale entre header et footer-->
+            <!-- Frame avec comme taille la window -->
 
-            <section class="main-frame ">
+            <section class="frame-main">
 
                 <!-- Section principale composé d'un grid de 4 sections-->
 
                 <section class="grid2r2c h-100pct">
 
 
-                    <!-- Frame palmares -->
+                    <!-- Frame globale palmares - Grid 1/4-->
 
-                    <section class="w-100pct h-100pct w-center h-center ">
+                    <section class="w-100pct h-100pct w-center h-center debug">
 
-                        <section class="w-90pct h-90pct ">
+                        <!-- Frame onglet & logo & bandeau 90% -->
+                        <section class="w-90pct h-90pct debug">
 
                             <!-- Frame onglet palmares -->
-                            <section class="frame w-25pct h-10pct w-center h-center onglet">
+                            <section class="w-25pct h-10pct w-center h-center onglet">
                                 <article>
                                     <p>PALMARES</p>
                                 </article>
                             </section>
 
+                            <!-- Frame logo &  bandeau -->
+                            <section class="frame-palmares-parcours w-100pct h-90pct">
 
-                            <!-- Grid palmares -->
-                            <section class="w-100pct h-80pct bgcolor-palmares-parcours">
+                                <!-- Frame grid logo -->
+                                <section class="grid2r3c h-90pct w-100pct">
 
-                                <section class="grid2r3c h-100pct w-100pct">
-
-                                    <section class="w-100pct h-100pct w-center h-center">
-                                        <section class="w-75pct h-75pct img-coppaitalia"></section>
-                                    </section>
-
-                                    <section class="w-100pct h-100pct w-center h-center">
-                                        <section class="w-75pct h-75pct  img-UAE"></section>
-                                    </section>
-
-                                    <section class="w-100pct h-100pct w-center h-center">
-                                        <section class="w-75pct h-75pct  img-championL"></section>
-                                    </section>
-
-                                    <section class="w-100pct h-100pct w-center h-center">
-                                        <section class="w-75pct h-75pct img-copparey"></section>
-                                    </section>
-
-                                    <section class="w-100pct h-100pct w-center h-center">
-                                        <section class="w-75pct h-75pct  img-mali"></section>
-                                    </section>
-
-                                    <section class="w-100pct h-100pct w-center h-center">
-                                        <section class="w-75pct h-75pct  img-JO"></section>
-                                    </section>
-
-                                </section>
-
-                            </section>
-
-                            <!-- bandeau affichant les resultats -->
-                            <section class="w-100pct h-10pct bgcolor-palmares-parcours">
-
-                                <section class="bandeau-palmares">
-                                    <article>
-                                        <h1>2 Coupes d’Italie: 2009/10, 2010/11 (Inter)</h1>
+                                    <article class="w-100pct h-100pct w-center h-center">
+                                        <article class="w-50pct h-80pct img-coppaitalia"></article>
                                     </article>
+
+                                    <article class="w-100pct h-100pct w-center h-center debug">
+                                        <article class="w-50pct h-80pct  img-UAE"></article>
+                                    </article>
+
+                                    <article class="w-100pct h-100pct w-center h-center">
+                                        <article class="w-50pct h-80pct  img-championL"></article>
+                                    </article>
+
+                                    <article class="w-100pct h-100pct w-center h-center debug">
+                                        <article class="w-50pct h-80pct img-copparey"></article>
+                                    </article>
+
+                                    <article class="w-100pct h-100pct w-center h-center">
+                                        <article class="w-50pct h-80pct img-mali"></article>
+                                    </article>
+
+                                    <article class="w-100pct h-100pct w-center h-center">
+                                        <article class="w-50pct h-80pct  img-JO"></article>
+                                    </article>
+
                                 </section>
 
-                            </section>
+                                <!-- bandeau affichant les resultats -->
+                                <section class="w-100pct h-10pct">
 
-                        </section>
-
-                    </section>
-
-
-                    <!-- Frame Formations -->
-
-                    <section class="w-100pct h-100pct">
-
-                        <section class="w-100pct h-100pct w-center h-center">
-
-                            <section class="w-90pct h-90pct">
-
-                                <!-- Frame onglet palmares -->
-                                <section class="frame w-25pct h-10pct w-center h-center onglet">
-                                    <p>FORMATIONS</p>
-                                </section>
-
-                                <section class="w-100pct h-90pct bgcolor-formations-langues">
-                                    <section class="grid3r2c h-100pct w-100pct  ">
-
-                                        <section class="w-100pct h-100pct w-center h-center ">
-                                            <section class="w-75pct h-75pct img-cadets "></section>
-                                        </section>
-
-                                        <section class="w-100pct h-100pct w-center h-center ">
-                                            <section class="w-90pct h-90pct h-center ">
-                                                <article>
-                                                    <h3>Débute avec les Cadets camerounais</h3>
-                                                </article>
-                                            </section>
-                                        </section>
-
-                                        <section class="w-100pct h-100pct w-center h-center ">
-                                            <section class="w-75pct h-75pct img-kadji "></section>
-                                        </section>
-
-
-                                        <section class="w-100pct h-100pct w-center h-center ">
-                                            <section class="w-90pct h-90pct h-center ">
-                                                <article>
-                                                    <h3>La Kadji Sport Academies - centre de formation sportive</h3>
-                                                </article>
-                                            </section>
-                                        </section>
-
-
-
-                                        <!-- <section class="w-100pct h-100pct "> -->
-                                        <section class="w-100pct h-100pct w-center h-center ">
-                                            <section class="w-50pct h-100pct img-hac "></section>
-                                        </section>
-                                        <!-- </section> -->
-
-                                        <section class="w-100pct h-100pct w-center h-center ">
-                                            <section class="w-90pct h-90pct h-center ">
-                                                <article>
-                                                    <h3>Fait ses premières armes avec le footbal club du Havre</h3>
-                                                </article>
-                                            </section>
-                                        </section>
-
-
-                                        <section class="w-100pct h-100pct "></section>
-
+                                    <section class="bandeau-palmares">
+                                        <article>
+                                            <h1>2 Coupes d’Italie: 2009/10, 2010/11 (Inter)</h1>
+                                        </article>
                                     </section>
-                                </section>
 
-
-                            </section>
-                        </section>
-                    </section>
-
-                    <!-- Frame Parcours -->
-
-                    <section class="w-100pct h-100pct">
-                        <section class="w-100pct h-100pct w-center h-center">
-                            <section class="w-90pct h-90pct">
-
-                                <!-- Frame onglet palmares -->
-                                <section class="w-25pct h-10pct w-center h-center onglet">
-                                    <p>PARCOURS</p>
-                                </section>
-
-                                <section class="frame-palmares-parcours w-100pct h-90pct">
-                                    <section class="grid3r3c h-100pct w-100pct">
-
-                                        <section class="w-100pct h-100pct h-center w-center">
-                                            <section class="w-50pct h-80pct img-intermilan"></section>
-                                        </section>
-
-                                        <section class="w-100pct h-100pct h-center w-center">
-                                            <section class="w-50pct h-80pct img-fcb"></section>
-                                        </section>
-
-                                        <section class="w-100pct h-100pct h-center w-center">
-                                            <section class="w-50pct h-80pct img-rcd"></section>
-                                        </section>
-
-                                        <section class="w-100pct h-100pct ">
-                                            <h3 class="w-center">INTER MILAN</h3>
-                                            <h3 class="w-center">DIVISION A</h3>
-                                            <h3 class="w-center">2011 - 2009</h3>
-                                        </section>
-
-                                        <section class="w-100pct h-100pct">
-                                            <h3 class="w-center">FCB</h3>
-                                            <h3 class="w-center">DIVISION 1</h3>
-                                            <h3 class="w-center">2009 - 2004</h3>
-                                        </section>
-
-                                        <section class="w-100pct h-100pct">
-                                            <h3 class="w-center">RCB</h3>
-                                            <h3 class="w-center">DIVISION 1</h3>
-                                            <h3 class="w-center">2004 - 1999</h3>
-                                        </section>
-
-
-                                        <section class="w-100pct h-100pct w-center ">
-                                            <section class="w-25pct h-100pct img-ballon "></section>
-                                            <h4 class="w-center h-center ">77 buts</h4>
-                                        </section>
-
-                                        <section class=" w-100pct h-100pct">
-                                            <section class="w-100pct h-100pct w-center">
-                                                <section class="w-25pct h-100pct img-ballon"></section>
-                                                <h4 class="w-center h-center">37 buts</h4>
-                                            </section>
-
-                                        </section>
-
-                                        <section class="w-100pct h-100pct">
-                                            <section class="w-100pct h-100pct w-center">
-                                                <section class="w-25pct h-100pct img-ballon"></section>
-                                                <h4 class="w-center h-center">33 buts</h4>
-                                            </section>
-
-                                        </section>
-
-                                    </section>
                                 </section>
 
                             </section>
 
                         </section>
+
                     </section>
 
 
-                    <!-- Frame Langues -->
+                    <!-- Frame globale formations - Grid 2/4-->
+
 
                     <section class="w-100pct h-100pct w-center h-center">
 
+                        <!-- Frame onglet & logo & test 90% -->
+                        <section class="w-90pct h-90pct debug">
+
+                            <!-- Frame onglet formations -->
+                            <section class="w-25pct h-10pct w-center h-center onglet">
+                                <p>FORMATIONS</p>
+                            </section>
+
+                            <!-- Frame logo & text -->
+                            <section class="frame-formations-langues w-100pct h-90pct">
+
+                                <!-- Frame grid logo & text -->
+                                <section class="grid3r2c h-100pct w-100pct">
+
+                                    <article class="w-100pct h-100pct w-center h-center ">
+                                        <article class="w-50pct h-80pct img-cadets"></article>
+                                    </article>
+
+                                    <article class="w-100pct h-100pct w-center h-center ">
+                                        <article class="w-90pct h-90pct h-center ">
+                                            <article>
+                                                <h3>Débute avec les Cadets camerounais</h3>
+                                            </article>
+                                        </article>
+                                    </article>
+
+                                    <article class="w-100pct h-100pct w-center h-center ">
+                                        <article class="w-50pct h-80pct img-kadji "></article>
+                                    </article>
+
+
+                                    <article class="w-100pct h-100pct w-center h-center ">
+                                        <article class="w-90pct h-90pct h-center ">
+                                            <article>
+                                                <h3>La Kadji Sport Academies - centre de formation sportive</h3>
+                                            </article>
+                                        </article>
+                                    </article>
+
+
+                                    <!-- <section class="w-100pct h-100pct "> -->
+                                    <article class="w-100pct h-100pct w-center h-center ">
+                                        <article class="w-50pct h-80pct img-hac"></article>
+                                    </article>
+
+
+                                    <article class="w-100pct h-100pct w-center h-center ">
+                                        <article class="w-90pct h-90pct h-center ">
+                                            <article>
+                                                <h3>Fait ses premières armes avec le footbal club du Havre</h3>
+                                            </article>
+                                        </article>
+                                    </article>
+
+                                </section>
+                            </section>
+
+                        </section>
+                    </section>
+
+
+                    <!-- Frame globale parcours - Grid 3/4-->
+
+                    <section class="w-100pct h-100pct w-center h-center debug">
+
+                        <!-- Frame onglet & logo & test 90% -->
                         <section class="w-90pct h-90pct">
 
-                            <!-- Frame onglet palmares -->
-                            <section class="frame w-25pct h-10pct w-center h-center onglet">
+                            <!-- Frame onglet parcours -->
+                            <section class="w-25pct h-10pct w-center h-center onglet">
+                                <p>PARCOURS</p>
+                            </section>
+
+                            <!-- Frame logo & text -->
+                            <section class="frame-palmares-parcours w-100pct h-90pct">
+
+                                <!-- Frame grid logo & text -->
+                                <section class="grid3r3c h-100pct w-100pct">
+
+                                    <article class="w-100pct h-100pct h-center w-center">
+                                        <article class="w-50pct h-80pct img-intermilan"></article>
+                                    </article>
+
+                                    <article class="w-100pct h-100pct h-center w-center">
+                                        <article class="w-75pct h-80pct img-fcb"></article>
+                                    </article>
+
+                                    <article class="w-100pct h-100pct h-center w-center">
+                                        <article class="w-50pct h-80pct img-rcd"></article>
+                                    </article>
+
+                                    <article class="w-100pct h-100pct ">
+                                        <h3 class="w-center">INTER MILAN</h3>
+                                        <h3 class="w-center">DIVISION A</h3>
+                                        <h3 class="w-center">2011 - 2009</h3>
+                                    </article>
+
+                                    <article class="w-100pct h-100pct">
+                                        <h3 class="w-center">FCB</h3>
+                                        <h3 class="w-center">DIVISION 1</h3>
+                                        <h3 class="w-center">2009 - 2004</h3>
+                                    </article>
+
+                                    <article class="w-100pct h-100pct">
+                                        <h3 class="w-center">RCB</h3>
+                                        <h3 class="w-center">DIVISION 1</h3>
+                                        <h3 class="w-center">2004 - 1999</h3>
+                                    </article>
+
+
+                                    <article class="w-100pct h-100pct w-center ">
+                                        <article class="w-25pct h-100pct img-ballon "></article>
+                                        <h4 class="w-center h-center ">77 buts</h4>
+                                    </article>
+
+                                    <article class=" w-100pct h-100pct">
+                                        <section class="w-100pct h-100pct w-center">
+                                            <section class="w-25pct h-100pct img-ballon"></section>
+                                            <h4 class="w-center h-center">37 buts</h4>
+                                        </section>
+
+                                    </article>
+
+                                    <article class="w-100pct h-100pct">
+                                        <article class="w-100pct h-100pct w-center">
+                                            <article class="w-25pct h-100pct img-ballon"></article>
+                                            <h4 class="w-center h-center">33 buts</h4>
+                                        </article>
+
+                                    </article>
+
+                                </section>
+                            </section>
+
+                        </section>
+
+                    </section>
+
+
+
+                    <!-- Frame globale langues - Grid 4/4-->
+
+                    <section class="w-100pct h-100pct w-center h-center">
+
+                        <!-- Frame onglet & logo & test 90% -->
+                        <section class="w-90pct h-90pct">
+
+                            <!-- Frame onglet langues -->
+                            <section class="w-25pct h-10pct w-center h-center onglet">
                                 <p>LANGUES</p>
                             </section>
 
-                            <section class="w-100pct h-90pct bgcolor-formations-langues">
+                            <!-- Frame logo & text -->
+                            <section class="frame-formations-langues w-100pct h-90pct">
+
+                                <!-- Frame grid logo & text -->
                                 <section class="grid2r3c h-100pct w-100pct">
 
-                                    <section class="w-100pct h-100pct w-center h-bottom">
-                                        <section class="w-50pct h-50pct img-francais"></section>
-                                    </section>
+                                    <article class="w-100pct h-100pct w-center h-bottom">
+                                        <article class="w-50pct h-50pct img-francais"></article>
+                                    </article>
 
-                                    <section class="w-100pct h-100pct w-center h-bottom">
-                                        <section class="w-50pct h-50pct img-anglais"></section>
-                                    </section>
+                                    <article class="w-100pct h-100pct w-center h-bottom">
+                                        <article class="w-50pct h-50pct img-anglais"></article>
+                                    </article>
 
-                                    <section class="w-100pct h-100pct w-center h-bottom">
-                                        <section class="w-50pct h-50pct img-espagnol"></section>
-                                    </section>
+                                    <article class="w-100pct h-100pct w-center h-bottom">
+                                        <article class="w-50pct h-50pct img-espagnol"></article>
+                                    </article>
 
-                                    <section class="w-100pct h-100pct w-center h-center">
+                                    <article class="w-100pct h-100pct w-center h-center">
                                         <h3>FRANCAIS</h3>
-                                    </section>
+                                    </article>
 
-                                    <section class="w-100pct h-100pct w-center h-center">
+                                    <article class="w-100pct h-100pct w-center h-center">
                                         <h3>ANGLAIS</h3>
-                                    </section>
+                                    </article>
 
-                                    <section class="w-100pct h-100pct w-center h-center">
+                                    <article class="w-100pct h-100pct w-center h-center">
                                         <h3>ESPAGNOL</h3>
-                                    </section>
+                                    </article>
 
 
                                 </section>

@@ -10,7 +10,7 @@ h3 {
 }
 
 
-.main-container {
+.frame-window {
     border: 30px solid black;
     font-family: var(--font);
     height: 100vh;
@@ -34,7 +34,7 @@ footer {
     background-color: blue;
 }
 
-.main-frame {
+.frame-main {
     width: 100%;
     height: calc(100vh - 100px - 50px - 30px);
 }
@@ -47,7 +47,15 @@ footer {
     font-size: 20px;
 }
 
+/* 
+.bgcolor-palmares-parcours {
+    background-color: var(--bgcolor-frame-parcours-palmares);
+}
 
+
+.bgcolor-formations-langues {
+    background-color: var(--bgcolor-frame-formations-langues);
+} */
 
 .frame-palmares-parcours {
     border-radius: 0px 10px 10px 10px;
