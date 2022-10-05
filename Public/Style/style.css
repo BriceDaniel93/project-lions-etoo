@@ -12,10 +12,10 @@
     --font: 'inter';
 }
 
-/* 
+
 .debug {
     border: 1px solid red;
-} */
+}
 
 p,
 h1,
@@ -53,45 +53,15 @@ footer {
 .frame-palmares-parcours {
     border-radius: 0px 10px 10px 10px;
     background-color: var(--bgcolor-frame-parcours-palmares);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .frame-formations-langues {
     border-radius: 0px 10px 10px 10px;
     background-color: var(--bgcolor-frame-formations-langues);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-.img-coppaitalia {
-    background-size: 100% 100%;
-    /* background-repeat: no-repeat; */
-    background-image: url(/Assets/coppaitalia.png);
-}
-
-.img-UAE {
-    background-size: 100% 100%;
-    background-image: url("/Assets/Coupe_du_monde_des_clubs_de_football_2010.png");
-}
-
-.img-championL {
-    background-size: 100% 100%;
-    background-image: url("/Assets/Cl2009_logo.png");
-}
-
-.img-copparey {
-    background-size: 100% 100%;
-    background-image: url("/Assets/Logo_Copa_del_Rey_2021.png");
-}
-
-.img-mali {
-    background-size: 100% 100%;
-    background-image: url("/Assets/CANMALI.png");
-
-}
-
-.img-JO {
-    background-size: 100% 100%;
-    background-image: url("/Assets/JO_2000.png");
-}
 
 
 .bandeau-palmares {
@@ -106,6 +76,8 @@ footer {
     /* margin: 40px; */
     color: var(--bgcolor-onglet);
     font-size: 20px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 .bandeau-palmares> :first-child {
@@ -133,76 +105,6 @@ footer {
 }
 
 
-.img-intermilan {
-    background-size: 100% 100%;
-    background-image: url("/Assets/interMilan.jpeg");
-}
-
-
-.img-fcb {
-    /* border: 2px solid red; */
-    /* background-size: cover; */
-    background-size: 100% 100%;
-    /* background-repeat: no-repeat; */
-    background-image: url("/Assets/logo-Barcelone.png");
-}
-
-.img-rcd {
-    /* border: 2px solid red; */
-    background-size: 100% 100%;
-    /* background-repeat: no-repeat; */
-    background-image: url("/Assets/RCD.png");
-}
-
-
-.img-ballon {
-    background-size: 100% 100%;
-    /* background-repeat: no-repeat; */
-    background-image: url("/Assets/ballon.png");
-
-}
-
-.img-cadets {
-    /* border: 1px solid red; */
-    background-size: 100% 100%;
-    /* background-repeat: no-repeat; */
-    background-image: url("/Assets/Camerounmaillot.png");
-}
-
-.img-kadji {
-    /* border: 1px solid red; */
-    background-size: 100% 100%;
-    /* background-repeat: no-repeat; */
-    background-image: url("/Assets/Kadji.png");
-}
-
-.img-hac {
-    /* border: 1px solid red; */
-    background-size: 100% 100%;
-    /* background-repeat: no-repeat; */
-    background-image: url("/Assets/Logo_Havre_AC.png");
-}
-
-
-.img-francais {
-    background-size: 100% 100%;
-    /* background-repeat: no-repeat; */
-    background-image: url("/Assets/Flag_France.png");
-}
-
-
-.img-anglais {
-    background-size: 100% 100%;
-    /* background-repeat: no-repeat; */
-    background-image: url("/Assets/Flag_UK.png");
-}
-
-
-.img-espagnol {
-    background-size: 100% 100%;
-    /* background-repeat: no-repeat; */
-    background-image: url("/Assets/Flag_Spain.png");
-}
 
 .w-center {
     display: flex;

@@ -33,7 +33,7 @@
 
                     <!-- Frame globale palmares - Grid 1/4-->
 
-                    <section class="w-100pct h-100pct w-center h-center">
+                    <section id="section_palmares" class="w-100pct h-100pct w-center h-center">
 
                         <!-- Frame onglet & logo & bandeau 90% -->
                         <section class="w-90pct h-90pct">
@@ -52,27 +52,27 @@
                                 <section class="grid2r3c h-90pct w-100pct">
 
                                     <article class="w-100pct h-100pct w-center h-center">
-                                        <article class="w-50pct h-80pct img-coppaitalia"></article>
+                                        <article class="img-coppaitalia debug"></article>
                                     </article>
 
                                     <article class="w-100pct h-100pct w-center h-center">
-                                        <article class="w-50pct h-80pct  img-UAE"></article>
+                                        <article class="img-UAE"></article>
                                     </article>
 
                                     <article class="w-100pct h-100pct w-center h-center">
-                                        <article class="w-50pct h-80pct  img-championL"></article>
+                                        <article class="img-championL"></article>
                                     </article>
 
                                     <article class="w-100pct h-100pct w-center h-center">
-                                        <article class="w-50pct h-80pct img-copparey"></article>
+                                        <article class="img-copparey"></article>
                                     </article>
 
                                     <article class="w-100pct h-100pct w-center h-center">
-                                        <article class="w-50pct h-80pct img-mali"></article>
+                                        <article class="img-mali"></article>
                                     </article>
 
                                     <article class="w-100pct h-100pct w-center h-center">
-                                        <article class="w-50pct h-80pct  img-JO"></article>
+                                        <article class="img-JO"></article>
                                     </article>
 
                                 </section>
@@ -98,7 +98,7 @@
                     <!-- Frame globale formations - Grid 2/4-->
 
 
-                    <section class="w-100pct h-100pct w-center h-center">
+                    <section id="section_formations" class="w-100pct h-100pct w-center h-center">
 
                         <!-- Frame onglet & logo & test 90% -->
                         <section class="w-90pct h-90pct">
@@ -115,7 +115,7 @@
                                 <section class="grid3r2c h-100pct w-100pct">
 
                                     <article class="w-100pct h-100pct w-center h-center ">
-                                        <article class="w-50pct h-80pct img-cadets"></article>
+                                        <article class="img-cadets"></article>
                                     </article>
 
                                     <article class="w-100pct h-100pct w-center h-center ">
@@ -127,7 +127,7 @@
                                     </article>
 
                                     <article class="w-100pct h-100pct w-center h-center ">
-                                        <article class="w-50pct h-80pct img-kadji "></article>
+                                        <article class="img-kadji "></article>
                                     </article>
 
 
@@ -142,7 +142,7 @@
 
                                     <!-- <section class="w-100pct h-100pct "> -->
                                     <article class="w-100pct h-100pct w-center h-center ">
-                                        <article class="w-50pct h-80pct img-hac"></article>
+                                        <article class="img-hac"></article>
                                     </article>
 
 
@@ -163,7 +163,7 @@
 
                     <!-- Frame globale parcours - Grid 3/4-->
 
-                    <section class="w-100pct h-100pct w-center h-center">
+                    <section id="section_parcours" class="w-100pct h-100pct w-center h-center">
 
                         <!-- Frame onglet & logo & test 90% -->
                         <section class="w-90pct h-90pct">
@@ -180,15 +180,15 @@
                                 <section class="grid3r3c h-100pct w-100pct">
 
                                     <article class="w-100pct h-100pct h-center w-center">
-                                        <article class="w-50pct h-80pct img-intermilan"></article>
+                                        <article class="img-intermilan"></article>
                                     </article>
 
                                     <article class="w-100pct h-100pct h-center w-center">
-                                        <article class="w-75pct h-80pct img-fcb"></article>
+                                        <article class="img-fcb"></article>
                                     </article>
 
                                     <article class="w-100pct h-100pct h-center w-center">
-                                        <article class="w-50pct h-80pct img-rcd"></article>
+                                        <article class="img-rcd"></article>
                                     </article>
 
                                     <article class="w-100pct h-100pct ">
@@ -217,7 +217,7 @@
 
                                     <article class=" w-100pct h-100pct">
                                         <section class="w-100pct h-100pct w-center">
-                                            <section class="w-25pct h-100pct img-ballon"></section>
+                                            <section class="img-ballon"></section>
                                             <h4 class="w-center h-center">37 buts</h4>
                                         </section>
 
@@ -225,7 +225,7 @@
 
                                     <article class="w-100pct h-100pct">
                                         <article class="w-100pct h-100pct w-center">
-                                            <article class="w-25pct h-100pct img-ballon"></article>
+                                            <article class="img-ballon"></article>
                                             <h4 class="w-center h-center">33 buts</h4>
                                         </article>
 
@@ -242,7 +242,7 @@
 
                     <!-- Frame globale langues - Grid 4/4-->
 
-                    <section class="w-100pct h-100pct w-center h-center">
+                    <section id="section_langues" class="w-100pct h-100pct w-center h-center">
 
                         <!-- Frame onglet & logo & test 90% -->
                         <section class="w-90pct h-90pct">
@@ -259,15 +259,15 @@
                                 <section class="grid2r3c h-100pct w-100pct">
 
                                     <article class="w-100pct h-100pct w-center h-bottom">
-                                        <article class="w-50pct h-50pct img-francais"></article>
+                                        <article class=" img-francais"></article>
                                     </article>
 
                                     <article class="w-100pct h-100pct w-center h-bottom">
-                                        <article class="w-50pct h-50pct img-anglais"></article>
+                                        <article class="img-anglais"></article>
                                     </article>
 
                                     <article class="w-100pct h-100pct w-center h-bottom">
-                                        <article class="w-50pct h-50pct img-espagnol"></article>
+                                        <article class="img-espagnol"></article>
                                     </article>
 
                                     <article class="w-100pct h-100pct w-center h-center">
