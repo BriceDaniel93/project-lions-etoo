@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="Style/style.css" rel="stylesheet" type="text/css">
-    <link href="Style/quisuisje-mobile.css" rel="stylesheet" media="screen and (max-width: 900px)">
-    <link href="Style/quisuisje-tablet.css" rel="stylesheet" media="screen and (min-width: 901px) and (max-width: 1400px)">
-    <link href="Style/quisuisje-desktop.css" rel="stylesheet" media="screen and (min-width: 1401px) and (max-width: 1900px)">
+    <link href="Style/quisuisje.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="quisuisje-desktop-mobile.css" media="screen and (max-width: 650px)">
+    <link rel="stylesheet" href="quisuisje-desktop.css" media="screen and (min-width: 650px) and (max-width: 768px)">
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700" rel="stylesheet">
 
     <title>Premier projet Wild Code School</title>
@@ -24,7 +26,7 @@
 
             <!-- Frame avec comme taille la window -->
 
-            <section class="frame-main debug">
+            <section class="frame-main">
 
                 <!-- Section principale composé d'un grid de 4 sections-->
 
@@ -33,15 +35,15 @@
 
                     <!-- Frame globale palmares - Grid 1/4-->
 
-                    <section class="w-100pct h-100pct w-center h-center">
+                    <section class="w-100pct h-100pct w-center h-center debug">
 
                         <!-- Frame onglet & logo & bandeau 90% -->
-                        <section class="w-90pct h-90pct">
+                        <section class="w-90pct h-90pct debug">
 
                             <!-- Frame onglet palmares -->
-                            <section class="w-30pct h-10pct w-center h-center onglet">
+                            <section class="w-25pct h-10pct w-center h-center onglet">
                                 <article>
-                                    <h1>PALMARES</h1>
+                                    <p>PALMARES</p>
                                 </article>
                             </section>
 
@@ -55,7 +57,7 @@
                                         <article class="w-50pct h-80pct img-coppaitalia"></article>
                                     </article>
 
-                                    <article class="w-100pct h-100pct w-center h-center">
+                                    <article class="w-100pct h-100pct w-center h-center debug">
                                         <article class="w-50pct h-80pct  img-UAE"></article>
                                     </article>
 
@@ -63,7 +65,7 @@
                                         <article class="w-50pct h-80pct  img-championL"></article>
                                     </article>
 
-                                    <article class="w-100pct h-100pct w-center h-center">
+                                    <article class="w-100pct h-100pct w-center h-center debug">
                                         <article class="w-50pct h-80pct img-copparey"></article>
                                     </article>
 
@@ -101,11 +103,11 @@
                     <section class="w-100pct h-100pct w-center h-center">
 
                         <!-- Frame onglet & logo & test 90% -->
-                        <section class="w-90pct h-90pct">
+                        <section class="w-90pct h-90pct debug">
 
                             <!-- Frame onglet formations -->
-                            <section class="w-30pct h-10pct w-center h-center onglet">
-                                <h1>FORMATIONS</h1>
+                            <section class="w-25pct h-10pct w-center h-center onglet">
+                                <p>FORMATIONS</p>
                             </section>
 
                             <!-- Frame logo & text -->
@@ -121,7 +123,7 @@
                                     <article class="w-100pct h-100pct w-center h-center ">
                                         <article class="w-90pct h-90pct h-center ">
                                             <article>
-                                                <h2>Débute avec les Cadets camerounais</h2>
+                                                <h3>Débute avec les Cadets camerounais</h3>
                                             </article>
                                         </article>
                                     </article>
@@ -134,7 +136,7 @@
                                     <article class="w-100pct h-100pct w-center h-center ">
                                         <article class="w-90pct h-90pct h-center ">
                                             <article>
-                                                <h2>La Kadji Sport Academies - centre de formation sportive</h2>
+                                                <h3>La Kadji Sport Academies - centre de formation sportive</h3>
                                             </article>
                                         </article>
                                     </article>
@@ -149,7 +151,7 @@
                                     <article class="w-100pct h-100pct w-center h-center ">
                                         <article class="w-90pct h-90pct h-center ">
                                             <article>
-                                                <h2>Fait ses premières armes avec le footbal club du Havre</h2>
+                                                <h3>Fait ses premières armes avec le footbal club du Havre</h3>
                                             </article>
                                         </article>
                                     </article>
@@ -163,14 +165,14 @@
 
                     <!-- Frame globale parcours - Grid 3/4-->
 
-                    <section class="w-100pct h-100pct w-center h-center">
+                    <section class="w-100pct h-100pct w-center h-center debug">
 
                         <!-- Frame onglet & logo & test 90% -->
                         <section class="w-90pct h-90pct">
 
                             <!-- Frame onglet parcours -->
                             <section class="w-25pct h-10pct w-center h-center onglet">
-                                <h1>PARCOURS</h1>
+                                <p>PARCOURS</p>
                             </section>
 
                             <!-- Frame logo & text -->
@@ -249,7 +251,7 @@
 
                             <!-- Frame onglet langues -->
                             <section class="w-25pct h-10pct w-center h-center onglet">
-                                <h1>LANGUES</h1>
+                                <p>LANGUES</p>
                             </section>
 
                             <!-- Frame logo & text -->

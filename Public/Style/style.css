@@ -12,6 +12,198 @@
     --font: 'inter';
 }
 
+/* 
+.debug {
+    border: 1px solid red;
+} */
+
+p,
+h1,
+h2,
+h3 {
+    color: var(--color-text);
+}
+
+
+header {
+    /* width: 100%; */
+    height: 100px;
+    /* border: 2px solid red; */
+    background-color: blue;
+}
+
+
+footer {
+    /* width: 100%; */
+    height: 50px;
+    /* border: 2px solid red; */
+    background-color: blue;
+}
+
+
+
+.onglet {
+    border-radius: 10px 10px 0 0;
+    background-color: var(--bgcolor-onglet);
+    opacity: 70%;
+    font-size: 20px;
+}
+
+
+.frame-palmares-parcours {
+    border-radius: 0px 10px 10px 10px;
+    background-color: var(--bgcolor-frame-parcours-palmares);
+}
+
+.frame-formations-langues {
+    border-radius: 0px 10px 10px 10px;
+    background-color: var(--bgcolor-frame-formations-langues);
+}
+
+
+.img-coppaitalia {
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    background-image: url(/Assets/coppaitalia.png);
+}
+
+.img-UAE {
+    background-size: 100% 100%;
+    background-image: url("/Assets/Coupe_du_monde_des_clubs_de_football_2010.png");
+}
+
+.img-championL {
+    background-size: 100% 100%;
+    background-image: url("/Assets/Cl2009_logo.png");
+}
+
+.img-copparey {
+    background-size: 100% 100%;
+    background-image: url("/Assets/Logo_Copa_del_Rey_2021.png");
+}
+
+.img-mali {
+    background-size: 100% 100%;
+    background-image: url("/Assets/CANMALI.png");
+
+}
+
+.img-JO {
+    background-size: 100% 100%;
+    background-image: url("/Assets/JO_2000.png");
+}
+
+
+.bandeau-palmares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bandeau-palmares h1 {
+    /* background-color: #178E23; */
+    /* margin: 40px; */
+    color: var(--bgcolor-onglet);
+    font-size: 20px;
+}
+
+.bandeau-palmares> :first-child {
+    display: inline-block;
+    /* modèle de boîte en ligne */
+    padding-right: 2em;
+    /* un peu d'espace pour la transition */
+    padding-left: 100%;
+    /* placement à droite du conteneur */
+    white-space: nowrap;
+    /* pas de passage à la ligne */
+    animation: defilement-rtl 30s infinite linear;
+}
+
+@keyframes defilement-rtl {
+    0% {
+        transform: translate3d(0, 0, 0);
+        /* position initiale à droite */
+    }
+
+    100% {
+        transform: translate3d(-100%, 0, 0);
+        /* position finale à gauche */
+    }
+}
+
+
+.img-intermilan {
+    background-size: 100% 100%;
+    background-image: url("/Assets/interMilan.jpeg");
+}
+
+
+.img-fcb {
+    /* border: 2px solid red; */
+    /* background-size: cover; */
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    background-image: url("/Assets/logo-Barcelone.png");
+}
+
+.img-rcd {
+    /* border: 2px solid red; */
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    background-image: url("/Assets/RCD.png");
+}
+
+
+.img-ballon {
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    background-image: url("/Assets/ballon.png");
+
+}
+
+.img-cadets {
+    /* border: 1px solid red; */
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    background-image: url("/Assets/Camerounmaillot.png");
+}
+
+.img-kadji {
+    /* border: 1px solid red; */
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    background-image: url("/Assets/Kadji.png");
+}
+
+.img-hac {
+    /* border: 1px solid red; */
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    background-image: url("/Assets/Logo_Havre_AC.png");
+}
+
+
+.img-francais {
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    background-image: url("/Assets/Flag_France.png");
+}
+
+
+.img-anglais {
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    background-image: url("/Assets/Flag_UK.png");
+}
+
+
+.img-espagnol {
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    background-image: url("/Assets/Flag_Spain.png");
+}
+
 .w-center {
     display: flex;
     justify-content: center;
@@ -74,6 +266,12 @@
     width: 50%;
 }
 
+
+.w-30pct {
+    width: 30%;
+}
+
+
 .h-25pct {
     height: 25%;
 }
@@ -91,14 +289,6 @@
     height: 20%;
 }
 
-
-.grid2r2c {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-}
-
-
 .grid2r3c {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -113,7 +303,6 @@
     grid-template-columns: 1fr 3fr;
     /* grid-gap: 2%; */
 }
-
 
 .grid3r3c {
     display: grid;
