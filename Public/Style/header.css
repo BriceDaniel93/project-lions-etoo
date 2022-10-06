@@ -6,12 +6,12 @@ header {
     height: 80px;
 }
 
-header img{
+header img {
     width: 90px;
     height: 90px;
 }
 
-nav {
+header nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -47,14 +47,6 @@ header nav ul li a:hover {
 
 }
 
-/* 
-p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    font-size: clamp(0.5rem, 3vw, 1.5rem);
-} */
 
 @media screen and (min-width: 460px) and (max-width: 720px) {
     header nav ul li a:hover {

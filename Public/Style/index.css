@@ -1,12 +1,3 @@
-/* html {
-    font: 62, 5%;
-    height: 100%;
-} */
-
-/* h1 {
-    font-size: 2.8rem;
-} */
-
 .hero h2 {
     font-size: 2rem;
     color: white;
@@ -18,42 +9,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* li {
-    font-size: 1rem;
-} */
+
 
 ul li button a {
     color: rgb(201, 219, 39);
     text-decoration: none;
 }
-
-/*header*/
-/* 
-.main-head {
-    background: rgb(36, 35, 35);
-    color: rgb(201, 219, 39);
-} */
-
-/* nav {
-    min-height: 5vh;
-    display: flex;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-    padding: 20 rem;
-} */
-
-
-/* nav ul {
-    display: flex;
-    flex: 1 1 40rem;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    flex-wrap: wrap;
-} */
-
-/*HERO*/
 
 
 .hero {
@@ -106,11 +67,6 @@ footer {
 }
 
 @media screen and (max-width:500px) {
-    /* nav {
-        display: flex;
-        text-align: end;
-        justify-content: flex-end;
-    } */
 
     .contenu {
         background: url('../Assets/couverture.jpg');
