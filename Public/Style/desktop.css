@@ -1,130 +1,162 @@
 .grid2r2c {
     display: grid;
-    grid-template-rows: 300px 300px 300px 300px;
-    grid-template-columns: 1fr;
-    /* grid-auto-flow: column; */
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+p,
+h1,
+h2,
+h3 {
+    color: var(--color-text);
 }
 
 h1 {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 
 h2 {
-    font-size: 18px;
-}
-
-h3 {
-    font-size: 16px;
-}
-
-#section_parcours {
-    grid-row-start: 2;
+    font-size: 26px;
 }
 
 .frame-window {
     /* border: 30px solid black; */
     font-family: var(--font);
-    /* height: 100vh; */
+    height: 100vh;
     width: 100vw;
 }
 
 
 .frame-main {
     width: 100%;
-    /* height: calc(100vh - 100px - 50px - 30px); */
+    height: calc(82vh);
 }
 
 .img-coppaitalia {
     background-size: 100% 100%;
-    height: 90px;
-    width: 100px;
+    height: 100px;
+    width: 130px;
     background-image: url(/Assets/coppaitalia.png);
     border: 3px solid #ddd;
     border-radius: 10px;
     padding: 5px;
 }
 
+.img-coppaitalia:hover {
+    border: 3px solid red;
+}
+
 .img-UAE {
     background-size: 100% 100%;
-    height: 90px;
-    width: 100px;
+    height: 100px;
+    width: 130px;
     background-image: url("/Assets/Coupe_du_monde_des_clubs_de_football_2010.png");
     border: 3px solid #ddd;
     border-radius: 10px;
     padding: 5px;
+}
 
+.img-UAE:hover {
+    border: 3px solid red;
 }
 
 .img-championL {
     background-size: 100% 100%;
-    height: 90px;
-    width: 100px;
+    height: 100px;
+    width: 130px;
     background-image: url("/Assets/Cl2009_logo.png");
     border: 3px solid #ddd;
     border-radius: 10px;
     padding: 5px;
 }
 
+.img-championL:hover {
+    border: 3px solid red;
+}
+
 .img-copparey {
     background-size: 100% 100%;
-    height: 90px;
-    width: 100px;
+    height: 100px;
+    width: 130px;
     background-image: url("/Assets/Logo_Copa_del_Rey_2021.png");
     border: 3px solid #ddd;
     border-radius: 10px;
     padding: 5px;
 }
 
+.img-copparey:hover {
+    border: 3px solid red;
+}
+
 .img-mali {
     background-size: 100% 100%;
-    height: 90px;
-    width: 100px;
+    height: 100px;
+    width: 130px;
     background-image: url("/Assets/CANMALI.png");
     border: 3px solid #ddd;
     border-radius: 10px;
     padding: 5px;
 }
 
+.img-mali:hover {
+    border: 3px solid red;
+}
+
 .img-JO {
     background-size: 100% 100%;
-    height: 90px;
-    width: 100px;
+    height: 100px;
+    width: 130px;
     background-image: url("/Assets/JO_2000.png");
     border: 3px solid #ddd;
     border-radius: 10px;
     padding: 5px;
 }
 
+.img-JO:hover {
+    border: 3px solid red;
+}
+
 .img-intermilan {
     background-size: 100% 100%;
     background-image: url("/Assets/interMilan.jpeg");
-    height: 90px;
-    width: 100px;
+    height: 100px;
+    width: 130px;
     border: 3px solid #ddd;
     border-radius: 10px;
     padding: 5px;
 }
 
+.img-intermilan:hover {
+    border: 3px solid red;
+}
 
 .img-fcb {
     background-size: 100% 100%;
     background-image: url("/Assets/logo-Barcelone.png");
-    height: 90px;
-    width: 100px;
+    height: 100px;
+    width: 130px;
     border: 3px solid #ddd;
     border-radius: 10px;
     padding: 5px;
+}
+
+.img-fcb:hover {
+    border: 3px solid red;
 }
 
 .img-rcd {
     background-size: 100% 100%;
     background-image: url("/Assets/RCD.png");
-    height: 90px;
-    width: 100px;
+    height: 100px;
+    width: 130px;
     border: 3px solid #ddd;
     border-radius: 10px;
     padding: 5px;
+}
+
+.img-rcd:hover {
+    border: 3px solid red;
 }
 
 
@@ -138,31 +170,31 @@ h3 {
 .img-cadets {
     background-size: 100% 100%;
     background-image: url("/Assets/Camerounmaillot.png");
-    height: 50px;
-    width: 80px;
+    height: 70px;
+    width: 100px;
 }
 
 .img-kadji {
     background-size: 100% 100%;
     background-image: url("/Assets/Kadji.png");
-    height: 50px;
-    width: 80px;
+    height: 70px;
+    width: 100px;
 }
 
 
 .img-hac {
     background-size: 100% 100%;
     background-image: url("/Assets/Logo_Havre_AC.png");
-    height: 50px;
-    width: 80px;
+    height: 70px;
+    width: 100px;
 }
 
 
 .img-francais {
     background-size: 100% 100%;
     background-image: url("/Assets/Flag_France.png");
-    height: 60px;
-    width: 80px;
+    height: 80px;
+    width: 120px;
     border: 3px solid #ddd;
     border-radius: 10px;
     padding: 5px;
@@ -172,8 +204,8 @@ h3 {
 .img-anglais {
     background-size: 100% 100%;
     background-image: url("/Assets/Flag_UK.png");
-    height: 60px;
-    width: 80px;
+    height: 80px;
+    width: 120px;
     border: 3px solid #ddd;
     border-radius: 10px;
     padding: 5px;
@@ -183,14 +215,14 @@ h3 {
 .img-espagnol {
     background-size: 100% 100%;
     background-image: url("/Assets/Flag_Spain.png");
-    height: 60px;
-    width: 80px;
+    height: 80px;
+    width: 120px;
     border: 3px solid #ddd;
     border-radius: 10px;
     padding: 5px;
 }
 
-/* CSS Header */
-li a:hover {
+/* header css */
+header nav ul li a:hover {
     text-decoration: none;
 }

@@ -1,17 +1,23 @@
-header {
+/* merge with style .css */
+/* header {
     display: flex;
     background: linear-gradient(#18391E, #01D758);
     border-top: solid;
     border-bottom: solid;
+<<<<<<< HEAD
     flex-wrap: nowrap;
+=======
+    height: 80px;
+>>>>>>> 12e5991bb3e5682fdba09d8f142715e0d3407472
 }
+
 
 header img {
-    width: 100px;
-    height: 100px;
+    height: 75px;
 }
 
-nav {
+
+header nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -26,16 +32,14 @@ nav ul li {
     display: flex;
     align-items: center;
     list-style-type: none;
-    /* margin-right: 100px; */
-
 }
 
 header nav ul li a {
     text-decoration: none;
     color: white;
-    font-family: arial black, sans-serif;
+    font-family: var(--font);
     margin-right: 30px;
-    font-size: clamp(1rem, 3vw, 2rem);
+    font-size: clamp(0.5rem, 3vw, 1.3rem);
 }
 
 .boutton {
@@ -43,25 +47,10 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    text-decoration: underline;
-
-}
-
-/* 
-p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    font-size: clamp(0.5rem, 3vw, 1.5rem);
+    text-decoration: none;
 } */
 
-@media screen and (min-width: 460px) and (max-width: 720px) {
-    header nav ul li a:hover {
-        text-decoration: none;
-    }
-}
-
+/* 
 @media screen and (min-width: 768px) and (max-width: 900px) {
 
     nav ul li {
@@ -71,10 +60,10 @@ p {
     header nav ul li a:hover {
         text-decoration: none;
     }
-}
+} */
 
-@media screen and (min-width: 900px) and (max-width: 1024px) {
+/* @media screen and (min-width: 900px) and (max-width: 1024px) {
     header nav ul li a:hover {
         text-decoration: none;
     }
-}
+} */

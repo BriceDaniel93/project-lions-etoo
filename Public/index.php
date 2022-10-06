@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../Style/style.css">
     <link rel="stylesheet" href="../Style/index.css">
     <link rel="stylesheet" href="../Style/header.css">
-    <link rel='stylesheet' media='screen and (max-width: 700px)' href='../Style/mobile.css' />
+    <link rel='stylesheet' media='screen and (max-width: 900px)' href='../Style/mobile.css' />
 
 
     <link rel="icon" href="images/Fecafoot.jpg">
