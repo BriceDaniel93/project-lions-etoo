@@ -7,9 +7,8 @@ header {
 }
 
 header img{
-    width: 90px;
-    height: 90px;
-}
+    height: 75px;
+} 
 
 nav {
     display: flex;
@@ -26,8 +25,6 @@ nav ul li {
     display: flex;
     align-items: center;
     list-style-type: none;
-    /* margin-right: 100px; */
-
 }
 
 header nav ul li a {
@@ -35,7 +32,7 @@ header nav ul li a {
     color: white;
     font-family: arial black, sans-serif;
     margin-right: 30px;
-    font-size: clamp(1rem, 3vw, 2rem);
+    font-size: clamp(0.5rem, 3vw, 1.3rem);
 }
 
 .boutton {
@@ -46,15 +43,6 @@ header nav ul li a:hover {
     text-decoration: underline;
 
 }
-
-/* 
-p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    font-size: clamp(0.5rem, 3vw, 1.5rem);
-} */
 
 @media screen and (min-width: 460px) and (max-width: 720px) {
     header nav ul li a:hover {
