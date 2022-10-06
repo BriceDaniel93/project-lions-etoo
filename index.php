@@ -3,7 +3,8 @@
      
     <?php
         include('header.php');
-        include('menu.php');
+        // include('menu.php');
+        
      ?>
 
     <div class="contenu">

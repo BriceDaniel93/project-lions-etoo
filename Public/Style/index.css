@@ -1,19 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
+/* html {
     font: 62, 5%;
     height: 100%;
-}
+} */
 
-h1 {
+/* h1 {
     font-size: 2.8rem;
-}
+} */
 
-h2 {
+.hero h2 {
     font-size: 2rem;
     color: white;
     display: flex;
@@ -21,51 +15,45 @@ h2 {
     align-items: center;
     padding-left: 20px;
     text-align: center;
-    font-family:;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-li {
+/* li {
     font-size: 1rem;
-}
+} */
 
-a {
+ul li button a {
     color: rgb(201, 219, 39);
     text-decoration: none;
 }
 
-body {
-    height: 80%;
-    background-image: url('images/couverture.jpg');
-    background-size: 110%;
-}
-
 /*header*/
+/* 
 .main-head {
     background: rgb(36, 35, 35);
     color: rgb(201, 219, 39);
-}
+} */
 
-nav {
+/* nav {
     min-height: 5vh;
     display: flex;
     align-items: center;
     width: 90%;
     margin: auto;
     padding: 20 rem;
-}
+} */
 
 
-nav ul {
+/* nav ul {
     display: flex;
     flex: 1 1 40rem;
     justify-content: space-around;
     align-items: center;
     list-style: none;
     flex-wrap: wrap;
-}
+} */
 
 /*HERO*/
-
 
 
 .hero {
@@ -73,12 +61,17 @@ nav ul {
 }
 
 .contenu {
-    height: 55vh;
-    width: 500px;
+    height: 80vh;
+    width: 100%;
     /* position: relative; */
     display: flex;
     align-items: center;
+    /* height: 80%; */
+    background-image: url('../Assets/couverture.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
+
 
 footer {
     background-color: rgb(201, 219, 39);
@@ -96,7 +89,10 @@ footer {
     justify-content: space-between;
     width: 100%;
     align-items: center;
+}
 
+.frame_footer ul li {
+    font-size: 1rem;
 }
 
 .frame_footer ul:nth-child(2) {
@@ -110,14 +106,14 @@ footer {
 }
 
 @media screen and (max-width:500px) {
-    nav {
+    /* nav {
         display: flex;
         text-align: end;
         justify-content: flex-end;
-    }
+    } */
 
-    body {
-        background: url('images/couverture.jpg');
+    .contenu {
+        background: url('../Assets/couverture.jpg');
         background-size: cover;
         background-position: 45%;
 
@@ -135,7 +131,7 @@ footer {
 
     }
 
-    h2 {
+    .hero h2 {
         font-size: 1.4rem;
         color: white;
         /* border: 1px solid red; */

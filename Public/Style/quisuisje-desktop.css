@@ -4,6 +4,13 @@
     grid-template-columns: 1fr 1fr;
 }
 
+p,
+h1,
+h2,
+h3 {
+    color: var(--color-text);
+}
+
 h1 {
     font-size: 18px;
 }
@@ -14,7 +21,7 @@ h2 {
 }
 
 .frame-window {
-    border: 30px solid black;
+    /* border: 30px solid black; */
     font-family: var(--font);
     height: 100vh;
     width: 100vw;
@@ -23,7 +30,7 @@ h2 {
 
 .frame-main {
     width: 100%;
-    height: calc(100vh - 100px - 50px - 30px);
+    height: calc(100vh);
 }
 
 .img-coppaitalia {
@@ -213,10 +220,4 @@ h2 {
     border: 3px solid #ddd;
     border-radius: 10px;
     padding: 5px;
-}
-
-
-/* CSS Header */
-li a:hover {
-    text-decoration: underline;
 }

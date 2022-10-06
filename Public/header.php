@@ -1,24 +1,14 @@
-<!DOCTYPE html>
-<<<<<<< HEAD
-<html lang="en">
-
-=======
+<!-- <!DOCTYPE html>
 <html lang="fr">
->>>>>>> 8ef5cfd4b25de7a1ce4753e41d4482f2372b45a9
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-    <link rel="stylesheet" href="style.css" />
-    <title>@etoo.cv</title>
-    <link rel="icon" href="images/Fecafoot.jpg">
-</head>
-=======
     <link rel="stylesheet" href="../Style/header.css" />
-    <title>Document</title>
-</head>
-<body>
+    <link rel="icon" href="images/Fecafoot.jpg">
+    <title>@etoo.cv</title>
+</head> -->
+
     <header>
     <img src="../Assets/fecafoot.png" alt="Logo Fecafoot">
             <nav>
@@ -28,6 +18,5 @@
                  </ul>
             </nav>
     </header>
-</body>
-</html>
->>>>>>> 8ef5cfd4b25de7a1ce4753e41d4482f2372b45a9
+
+
