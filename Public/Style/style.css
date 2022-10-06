@@ -198,3 +198,70 @@
     grid-template-columns: 1fr 1fr 1fr;
     /* grid-gap: 2%; */
 }
+
+
+/* header csss */
+header {
+    display: flex;
+    background: linear-gradient(#18391E, #01D758);
+    border-top: solid;
+    border-bottom: solid;
+    height: 80px;
+}
+
+
+header img {
+    height: 75px;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font);
+    margin-right: 30px;
+    font-size: clamp(0.5rem, 3vw, 1.3rem);
+}
+
+.boutton {
+    margin-right: 45px;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+}
+
+/* responive header */
+@media screen and (min-width: 768px) and (max-width: 900px) {
+
+    nav ul li {
+        margin-left: 30px;
+    }
+
+    header nav ul li a:hover {
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+    header nav ul li a:hover {
+        text-decoration: none;
+    }
+}

@@ -4,19 +4,21 @@
     grid-template-columns: 1fr 1fr;
 }
 
+p,
+h1,
+h2,
+h3 {
+    color: var(--color-text);
+}
+
 h1 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 
 h2 {
-    font-size: 18px;
+    font-size: 26px;
 }
-
-h3 {
-    font-size: 14px;
-}
-
 
 .frame-window {
     /* border: 30px solid black; */
@@ -28,7 +30,7 @@ h3 {
 
 .frame-main {
     width: 100%;
-    height: calc(100vh - 100px - 50px - 30px);
+    height: calc(82vh);
 }
 
 .img-coppaitalia {
@@ -41,6 +43,10 @@ h3 {
     padding: 5px;
 }
 
+.img-coppaitalia:hover {
+    border: 3px solid red;
+}
+
 .img-UAE {
     background-size: 100% 100%;
     height: 100px;
@@ -49,7 +55,10 @@ h3 {
     border: 3px solid #ddd;
     border-radius: 10px;
     padding: 5px;
+}
 
+.img-UAE:hover {
+    border: 3px solid red;
 }
 
 .img-championL {
@@ -62,6 +71,10 @@ h3 {
     padding: 5px;
 }
 
+.img-championL:hover {
+    border: 3px solid red;
+}
+
 .img-copparey {
     background-size: 100% 100%;
     height: 100px;
@@ -70,6 +83,10 @@ h3 {
     border: 3px solid #ddd;
     border-radius: 10px;
     padding: 5px;
+}
+
+.img-copparey:hover {
+    border: 3px solid red;
 }
 
 .img-mali {
@@ -82,6 +99,10 @@ h3 {
     padding: 5px;
 }
 
+.img-mali:hover {
+    border: 3px solid red;
+}
+
 .img-JO {
     background-size: 100% 100%;
     height: 100px;
@@ -90,6 +111,10 @@ h3 {
     border: 3px solid #ddd;
     border-radius: 10px;
     padding: 5px;
+}
+
+.img-JO:hover {
+    border: 3px solid red;
 }
 
 .img-intermilan {
@@ -102,6 +127,9 @@ h3 {
     padding: 5px;
 }
 
+.img-intermilan:hover {
+    border: 3px solid red;
+}
 
 .img-fcb {
     background-size: 100% 100%;
@@ -113,6 +141,10 @@ h3 {
     padding: 5px;
 }
 
+.img-fcb:hover {
+    border: 3px solid red;
+}
+
 .img-rcd {
     background-size: 100% 100%;
     background-image: url("/Assets/RCD.png");
@@ -121,6 +153,10 @@ h3 {
     border: 3px solid #ddd;
     border-radius: 10px;
     padding: 5px;
+}
+
+.img-rcd:hover {
+    border: 3px solid red;
 }
 
 
@@ -186,47 +222,7 @@ h3 {
     padding: 5px;
 }
 
-/* footer */
-.contenu {
-    background: url('../Assets/couverture.jpg');
-    background-size: cover;
-    background-position: 45%;
-
-}
-
-
-footer {
-    background-color: rgb(201, 219, 39);
-    min-height: 3vh;
-    width: 100%;
-    margin: auto;
-    padding: 10 rem;
-    position: absolute;
-    bottom: 0px;
-
-}
-
-.hero h2 {
-    font-size: 1.4rem;
-    color: white;
-    /* border: 1px solid red; */
-
-}
-
-.frame_footer {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-
-}
-
-.frame_footer ul:nth-child(2) {
-    display: flex;
-    margin-right: 2px;
-    list-style: none;
-}
-
-.frame_footer ul:nth-child(2) li {
-    margin-right: 2px;
+/* header css */
+header nav ul li a:hover {
+    text-decoration: none;
 }

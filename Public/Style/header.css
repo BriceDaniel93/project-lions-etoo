@@ -1,4 +1,5 @@
-header {
+/* merge with style .css */
+/* header {
     display: flex;
     background: linear-gradient(#18391E, #01D758);
     border-top: solid;
@@ -32,7 +33,7 @@ nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: white;
-    font-family: arial black, sans-serif;
+    font-family: var(--font);
     margin-right: 30px;
     font-size: clamp(0.5rem, 3vw, 1.3rem);
 }
@@ -42,16 +43,10 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+} */
 
-}
-
-<<<<<<< HEAD=======>>>>>>>30acae161a7470cd1b73e16f14480b7435ad632d @media screen and (min-width: 460px) and (max-width: 720px) {
-    header nav ul li a:hover {
-        text-decoration: none;
-    }
-}
-
+/* 
 @media screen and (min-width: 768px) and (max-width: 900px) {
 
     nav ul li {
@@ -61,10 +56,10 @@ header nav ul li a:hover {
     header nav ul li a:hover {
         text-decoration: none;
     }
-}
+} */
 
-@media screen and (min-width: 900px) and (max-width: 1024px) {
+/* @media screen and (min-width: 900px) and (max-width: 1024px) {
     header nav ul li a:hover {
         text-decoration: none;
     }
-}
+} */
