@@ -8,11 +8,12 @@ header{
     background: linear-gradient(#18391E, #01D758) ;
     border-top: solid;
     border-bottom: solid;
+    height: 80px;
 }
 
 img{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
 }
 nav {
     display: flex;

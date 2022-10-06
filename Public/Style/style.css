@@ -213,11 +213,6 @@ footer {
     /* grid-gap: 2%; */
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
 header{
     display: flex;
     background: linear-gradient(#18391E, #01D758) ;
