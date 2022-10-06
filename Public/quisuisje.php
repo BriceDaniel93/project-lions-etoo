@@ -8,10 +8,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="Style/style.css" rel="stylesheet" type="text/css">
-    <!-- <link href="Style/index.css" rel="stylesheet" type="text/css"> -->
     <link href="Style/mobile.css" rel="stylesheet" media="screen and (max-width: 900px)">
     <link href="Style/tablet.css" rel="stylesheet" media="screen and (min-width: 901px) and (max-width: 1400px)">
-    <!-- <link href="Style/desktop.css" rel="stylesheet" media="screen and (min-width: 1401px) and (max-width: 1900px)"> -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700" rel="stylesheet">
 
     <title>Premier projet Wild Code School</title>
@@ -20,9 +18,6 @@
 <body>
 
     <main>
-
-        <!-- Section principale entre header et footer-->
-
 
         <?php require_once("header.php"); ?>
 
@@ -33,7 +28,6 @@
             <!-- Section principale composé d'un grid de 4 sections-->
 
             <section class="grid2r2c h-100pct">
-
 
                 <!-- Frame globale palmares - Grid 1/4-->
 
@@ -55,29 +49,11 @@
                             <!-- Frame grid logo -->
                             <section class="grid2r3c h-90pct w-100pct">
 
-                                <article class="w-100pct h-100pct w-center h-center">
-                                    <article class="img-coppaitalia"></article>
-                                </article>
+                                <?php
+                                $imageList = ["img-coppaitalia", "img-UAE", "img-championL", "img-copparey", "img-mali", "img-JO"];
+                                echo displayImage("w-100pct", "h-100pct", "w-center h-center", $imageList);
+                                ?>
 
-                                <article class="w-100pct h-100pct w-center h-center">
-                                    <article class="img-UAE"></article>
-                                </article>
-
-                                <article class="w-100pct h-100pct w-center h-center">
-                                    <article class="img-championL"></article>
-                                </article>
-
-                                <article class="w-100pct h-100pct w-center h-center">
-                                    <article class="img-copparey"></article>
-                                </article>
-
-                                <article class="w-100pct h-100pct w-center h-center">
-                                    <article class="img-mali"></article>
-                                </article>
-
-                                <article class="w-100pct h-100pct w-center h-center">
-                                    <article class="img-JO"></article>
-                                </article>
 
                             </section>
 
@@ -120,45 +96,14 @@
                             <!-- Frame grid logo & text -->
                             <section class="grid3r2c h-100pct w-100pct">
 
-                                <article class="w-100pct h-100pct w-center h-center ">
-                                    <article class="img-cadets"></article>
-                                </article>
-
-                                <article class="w-100pct h-100pct w-center h-center ">
-                                    <article class="w-90pct h-90pct h-center ">
-                                        <article>
-                                            <h2>Débute avec les Cadets camerounais</h2>
-                                        </article>
-                                    </article>
-                                </article>
-
-                                <article class="w-100pct h-100pct w-center h-center ">
-                                    <article class="img-kadji "></article>
-                                </article>
-
-
-                                <article class="w-100pct h-100pct w-center h-center ">
-                                    <article class="w-90pct h-90pct h-center ">
-                                        <article>
-                                            <h2>La Kadji Sport Academies - centre de formation sportive</h2>
-                                        </article>
-                                    </article>
-                                </article>
-
-
-                                <!-- <section class="w-100pct h-100pct "> -->
-                                <article class="w-100pct h-100pct w-center h-center ">
-                                    <article class="img-hac"></article>
-                                </article>
-
-
-                                <article class="w-100pct h-100pct w-center h-center ">
-                                    <article class="w-90pct h-90pct h-center ">
-                                        <article>
-                                            <h2>Fait ses premières armes avec le footbal club du Havre</h2>
-                                        </article>
-                                    </article>
-                                </article>
+                                <?php
+                                $imageTextList = [
+                                    "img-cadets" => "Débute avec les Cadets camerounais",
+                                    "img-kadji" => "La Kadji Sport Academies - centre de formation sportive",
+                                    "img-hac" => "Fait ses premières armes avec le football club du Havre",
+                                ];
+                                echo displayImageText("w-100pct", "h-100pct", "w-90pct", "h-90pct", "w-center h-center", $imageTextList);
+                                ?>
 
                             </section>
                         </section>
@@ -185,17 +130,10 @@
                             <!-- Frame grid logo & text -->
                             <section class="grid3r3c h-100pct w-100pct">
 
-                                <article class="w-100pct h-100pct h-center w-center">
-                                    <article class="img-intermilan"></article>
-                                </article>
-
-                                <article class="w-100pct h-100pct h-center w-center">
-                                    <article class="img-fcb"></article>
-                                </article>
-
-                                <article class="w-100pct h-100pct h-center w-center">
-                                    <article class="img-rcd"></article>
-                                </article>
+                                <?php
+                                $imageList = ["img-intermilan", "img-fcb", "img-rcd"];
+                                echo displayImage("w-100pct", "h-100pct", "w-center h-center", $imageList);
+                                ?>
 
                                 <article class="w-100pct h-100pct ">
                                     <h3 class="w-center">INTER MILAN</h3>
@@ -221,7 +159,7 @@
                                     <h4 class="w-center h-center ">77 buts</h4>
                                 </article>
 
-                                <article class=" w-100pct h-100pct">
+                                <article class="w-100pct h-100pct">
                                     <section class="w-100pct h-100pct w-center">
                                         <section class="w-25pct h-100pct img-ballon"></section>
                                         <h4 class="w-center h-center">37 buts</h4>
@@ -264,17 +202,10 @@
                             <!-- Frame grid logo & text -->
                             <section class="grid2r3c h-100pct w-100pct">
 
-                                <article class="w-100pct h-100pct w-center h-bottom">
-                                    <article class=" img-francais"></article>
-                                </article>
-
-                                <article class="w-100pct h-100pct w-center h-bottom">
-                                    <article class="img-anglais"></article>
-                                </article>
-
-                                <article class="w-100pct h-100pct w-center h-bottom">
-                                    <article class="img-espagnol"></article>
-                                </article>
+                                <?php
+                                $imageList = ["img-francais", "img-anglais", "img-espagnol"];
+                                echo displayImage("w-100pct", "h-100pct", "w-center h-bottom", $imageList);
+                                ?>
 
                                 <article class="w-100pct h-100pct w-center h-center">
                                     <h3>FRANCAIS</h3>
@@ -301,8 +232,6 @@
         </section>
 
         <?php require_once("footer.php"); ?>
-
-
 
     </main>
 
