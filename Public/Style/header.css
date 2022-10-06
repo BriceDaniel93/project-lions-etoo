@@ -4,7 +4,11 @@
     background: linear-gradient(#18391E, #01D758);
     border-top: solid;
     border-bottom: solid;
+<<<<<<< HEAD
+    flex-wrap: nowrap;
+=======
     height: 80px;
+>>>>>>> 12e5991bb3e5682fdba09d8f142715e0d3407472
 }
 
 

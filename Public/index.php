@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../Style/style.css">
     <link rel="stylesheet" href="../Style/index.css">
     <link rel="stylesheet" href="../Style/header.css">
+    <link rel='stylesheet' media='screen and (max-width: 900px)' href='../Style/mobile.css' />
+
+
     <link rel="icon" href="images/Fecafoot.jpg">
     <title>@etoo.cv</title>
 </head>
@@ -18,10 +21,8 @@
      ?>
 
     <div class="contenu">
-        <div class="test">
-
-        </div>
-        <section class="hero">
+    
+        <!-- <section class="hero"> -->
             <h2>“Aujourd’hui président de la Fecafoot,
                 j’ai longtemps été footballeur professionel.
                 Père et mari attentionné,
@@ -29,9 +30,11 @@
                 s’occupe d'enfants défavorisés de
                 l’Afrique .”
             </h2>
-        </section>
-        <?php include('footer.php');?> 
+        <!-- </section> -->
+       
 
     </div>
+
+    <?php include('footer.php');?> 
 </body>
 
