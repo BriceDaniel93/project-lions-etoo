@@ -10,7 +10,7 @@ header img{
     height: 75px;
 } 
 
-nav {
+header nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
