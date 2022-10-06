@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 62, 5%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    text-align: center;
+    font-family:;
+}
+
+li {
+    font-size: 1rem;
+}
+
+a {
+    color: rgb(201, 219, 39);
+    text-decoration: none;
+}
+
+body {
+    height: 80%;
+    background-image: url('images/couverture.jpg');
+    background-size: 110%;
+}
+
+/*header*/
+.main-head {
+    background: rgb(36, 35, 35);
+    color: rgb(201, 219, 39);
+}
+
+nav {
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 20 rem;
+}
+
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+/*HERO*/
+
+
+
+.hero {
+    flex: 1 1 40rem;
+}
+
+.contenu {
+    height: 55vh;
+    width: 500px;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(201, 219, 39);
+    min-height: 2vh;
+    width: 100%;
+    margin: auto;
+    padding: 2 rem;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.frame_footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+}
+
+.frame_footer ul:nth-child(2) {
+    display: flex;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.frame_footer ul:nth-child(2) li {
+    margin-right: 80px;
+}
+
+@media screen and (max-width:500px) {
+    nav {
+        display: flex;
+        text-align: end;
+        justify-content: flex-end;
+    }
+
+    body {
+        background: url('images/couverture.jpg');
+        background-size: cover;
+        background-position: 45%;
+
+    }
+
+
+    footer {
+        background-color: rgb(201, 219, 39);
+        min-height: 3vh;
+        width: 100%;
+        margin: auto;
+        padding: 10 rem;
+        position: absolute;
+        bottom: 0px;
+
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        color: white;
+        /* border: 1px solid red; */
+
+    }
+
+    .frame_footer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .frame_footer ul:nth-child(2) {
+        display: flex;
+        margin-right: 2px;
+        list-style: none;
+    }
+
+    .frame_footer ul:nth-child(2) li {
+        margin-right: 2px;
+    }
+
+}

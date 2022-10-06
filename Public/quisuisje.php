@@ -8,6 +8,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="Style/style.css" rel="stylesheet" type="text/css">
+    <link href="Style/header.css" rel="stylesheet" type="text/css">
+    <link href="Style/index.css" rel="stylesheet" type="text/css">
     <link href="Style/quisuisje-mobile.css" rel="stylesheet" media="screen and (max-width: 900px)">
     <link href="Style/quisuisje-tablet.css" rel="stylesheet" media="screen and (min-width: 901px) and (max-width: 1400px)">
     <link href="Style/quisuisje-desktop.css" rel="stylesheet" media="screen and (min-width: 1401px) and (max-width: 1900px)">
@@ -27,7 +29,7 @@
 
             <!-- Frame avec comme taille la window -->
 
-            <section class="frame-main debug">
+            <section class="frame-main">
 
                 <!-- Section principale composé d'un grid de 4 sections-->
 
@@ -55,7 +57,7 @@
                                 <section class="grid2r3c h-90pct w-100pct">
 
                                     <article class="w-100pct h-100pct w-center h-center">
-                                        <article class="img-coppaitalia debug"></article>
+                                        <article class="img-coppaitalia"></article>
                                     </article>
 
                                     <article class="w-100pct h-100pct w-center h-center">

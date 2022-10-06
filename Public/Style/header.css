@@ -1,19 +1,15 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-header{
+header {
     display: flex;
-    background: linear-gradient(#18391E, #01D758) ;
+    background: linear-gradient(#18391E, #01D758);
     border-top: solid;
     border-bottom: solid;
 }
 
-img{
+header img {
     width: 100px;
     height: 100px;
 }
+
 nav {
     display: flex;
     justify-content: flex-end;
@@ -21,11 +17,11 @@ nav {
     width: 100%;
 }
 
-ul{
+header nav ul {
     display: flex;
 }
 
-nav ul li{
+nav ul li {
     display: flex;
     align-items: center;
     list-style-type: none;
@@ -33,49 +29,51 @@ nav ul li{
 
 }
 
-a{
+header nav ul li a {
     text-decoration: none;
     color: white;
     font-family: arial black, sans-serif;
     margin-right: 30px;
-    font-size: clamp(1rem, 3vw, 2rem );
+    font-size: clamp(1rem, 3vw, 2rem);
 }
 
-.boutton{
- margin-right: 45px;
+.boutton {
+    margin-right: 45px;
 }
 
-a:hover {
+header nav ul li a:hover {
     text-decoration: underline;
 
 }
 
-p{
+/* 
+p {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     font-size: clamp(0.5rem, 3vw, 1.5rem);
-}
+} */
 
-@media screen and (min-width: 460px) and (max-width: 720px){
-    a:hover{
-    text-decoration: none;
+@media screen and (min-width: 460px) and (max-width: 720px) {
+    header nav ul li a:hover {
+        text-decoration: none;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 900px){
+@media screen and (min-width: 768px) and (max-width: 900px) {
 
-   nav ul li{
+    nav ul li {
         margin-left: 30px;
     }
-a:hover{
-    text-decoration: none;
+
+    header nav ul li a:hover {
+        text-decoration: none;
     }
 }
 
-@media screen and (min-width: 900px) and (max-width: 1024px){
-    a:hover{
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+    header nav ul li a:hover {
         text-decoration: none;
     }
 }

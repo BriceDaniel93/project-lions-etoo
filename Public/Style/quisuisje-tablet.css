@@ -19,7 +19,7 @@ h3 {
 
 
 .frame-window {
-    border: 30px solid black;
+    /* border: 30px solid black; */
     font-family: var(--font);
     height: 100vh;
     width: 100vw;
