@@ -1,10 +1,15 @@
+<?php require_once("src/function.php"); ?>
+
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="Style/style.css" rel="stylesheet" type="text/css">
+    <link href="Style/header.css" rel="stylesheet" type="text/css">
+    <link href="Style/index.css" rel="stylesheet" type="text/css">
     <link href="Style/quisuisje-mobile.css" rel="stylesheet" media="screen and (max-width: 900px)">
     <link href="Style/quisuisje-tablet.css" rel="stylesheet" media="screen and (min-width: 901px) and (max-width: 1400px)">
     <link href="Style/quisuisje-desktop.css" rel="stylesheet" media="screen and (min-width: 1401px) and (max-width: 1900px)">
@@ -52,7 +57,7 @@
                                 <section class="grid2r3c h-90pct w-100pct">
 
                                     <article class="w-100pct h-100pct w-center h-center">
-                                        <article class="img-coppaitalia debug"></article>
+                                        <article class="img-coppaitalia"></article>
                                     </article>
 
                                     <article class="w-100pct h-100pct w-center h-center">
@@ -82,7 +87,9 @@
 
                                     <section class="bandeau-palmares">
                                         <article>
-                                            <h1>2 Coupes d’Italie: 2009/10, 2010/11 (Inter)</h1>
+
+                                            <h1><?= palmares(); ?></h1>
+
                                         </article>
                                     </section>
 
@@ -211,13 +218,13 @@
 
 
                                     <article class="w-100pct h-100pct w-center ">
-                                        <article class="w-25pct h-100pct img-ballon "></article>
+                                        <article class="w-25pct h-100pct img-ballon"></article>
                                         <h4 class="w-center h-center ">77 buts</h4>
                                     </article>
 
                                     <article class=" w-100pct h-100pct">
                                         <section class="w-100pct h-100pct w-center">
-                                            <section class="img-ballon"></section>
+                                            <section class="w-25pct h-100pct img-ballon"></section>
                                             <h4 class="w-center h-center">37 buts</h4>
                                         </section>
 
@@ -225,7 +232,7 @@
 
                                     <article class="w-100pct h-100pct">
                                         <article class="w-100pct h-100pct w-center">
-                                            <article class="img-ballon"></article>
+                                            <article class="w-25pct h-100pct img-ballon"></article>
                                             <h4 class="w-center h-center">33 buts</h4>
                                         </article>
 
