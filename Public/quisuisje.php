@@ -29,7 +29,7 @@
 
             <!-- Frame avec comme taille la window -->
 
-            <section class="frame-main">
+            <section class="frame-main debug">
 
                 <!-- Section principale composé d'un grid de 4 sections-->
 
@@ -218,13 +218,13 @@
 
 
                                     <article class="w-100pct h-100pct w-center ">
-                                        <article class="w-25pct h-100pct img-ballon "></article>
+                                        <article class="w-25pct h-100pct img-ballon"></article>
                                         <h4 class="w-center h-center ">77 buts</h4>
                                     </article>
 
                                     <article class=" w-100pct h-100pct">
                                         <section class="w-100pct h-100pct w-center">
-                                            <section class="img-ballon"></section>
+                                            <section class="w-25pct h-100pct img-ballon"></section>
                                             <h4 class="w-center h-center">37 buts</h4>
                                         </section>
 
@@ -232,7 +232,7 @@
 
                                     <article class="w-100pct h-100pct">
                                         <article class="w-100pct h-100pct w-center">
-                                            <article class="img-ballon"></article>
+                                            <article class="w-25pct h-100pct img-ballon"></article>
                                             <h4 class="w-center h-center">33 buts</h4>
                                         </article>
 

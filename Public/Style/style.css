@@ -26,7 +26,7 @@
     font-size: 20px;
 }
 
-2 .frame-palmares-parcours {
+.frame-palmares-parcours {
     border-radius: 0px 10px 10px 10px;
     background-color: var(--bgcolor-frame-parcours-palmares);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -81,7 +81,7 @@
 }
 
 @keyframes defilement-rtl {
-    2 0% {
+    0% {
         transform: translate3d(0, 0, 0);
         /* position initiale à droite */
     }
@@ -121,7 +121,7 @@
     width: 100%;
 }
 
-2 .h-90pct {
+.h-90pct {
     height: 90%;
 }
 
@@ -157,7 +157,7 @@
 }
 
 
-.w2-30pct {
+.w-30pct {
     width: 30%;
 }
 
