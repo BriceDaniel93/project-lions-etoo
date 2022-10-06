@@ -1,0 +1,39 @@
+.contenu {
+    background-position: 50%;
+    height: 470px;
+}
+
+.contenu h2 {
+    font-size: 1rem;
+}
+
+
+footer {
+    background-position: 50%;
+    background-color: green;
+    min-height: 3vh;
+    width: 100%;
+    margin: auto;
+    padding: 10 rem;
+    position: absolute;
+    bottom: 0px;
+}
+
+.frame_footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+
+.frame_footer ul:nth-child(2) {
+    display: flex;
+    margin-right: 2px;
+    list-style: none;
+}
+
+
+.frame_footer ul:nth-child(2) li {
+    margin-right: 2px;
+}

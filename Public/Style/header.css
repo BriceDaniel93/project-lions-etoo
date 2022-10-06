@@ -3,6 +3,7 @@ header {
     background: linear-gradient(#18391E, #01D758);
     border-top: solid;
     border-bottom: solid;
+    flex-wrap: nowrap;
 }
 
 header img {

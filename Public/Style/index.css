@@ -1,86 +1,40 @@
-/* html {
-    font: 62, 5%;
-    height: 100%;
-} */
-
-/* h1 {
-    font-size: 2.8rem;
-} */
-
-.hero h2 {
-    font-size: 2rem;
+.contenu h2 {
+    font-size: 2vw;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding-left: 20px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 30%;
 }
 
-/* li {
-    font-size: 1rem;
-} */
+
 
 ul li button a {
     color: rgb(201, 219, 39);
     text-decoration: none;
 }
 
-/*header*/
-/* 
-.main-head {
-    background: rgb(36, 35, 35);
-    color: rgb(201, 219, 39);
-} */
-
-/* nav {
-    min-height: 5vh;
-    display: flex;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-    padding: 20 rem;
-} */
 
 
-/* nav ul {
-    display: flex;
-    flex: 1 1 40rem;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    flex-wrap: wrap;
-} */
-
-/*HERO*/
-
-
-.hero {
-    flex: 1 1 40rem;
-}
 
 .contenu {
-    height: 80vh;
     width: 100%;
-    /* position: relative; */
-    display: flex;
-    align-items: center;
-    /* height: 80%; */
+    height: 500px;
     background-image: url('../Assets/couverture.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-self: flex-start;
 }
 
 
 footer {
-    background-color: rgb(201, 219, 39);
+    background-color: green;
     min-height: 2vh;
     width: 100%;
     margin: auto;
     padding: 2 rem;
-    position: absolute;
-    bottom: 0px;
 
 }
 
@@ -103,57 +57,4 @@ footer {
 
 .frame_footer ul:nth-child(2) li {
     margin-right: 80px;
-}
-
-@media screen and (max-width:500px) {
-    /* nav {
-        display: flex;
-        text-align: end;
-        justify-content: flex-end;
-    } */
-
-    .contenu {
-        background: url('../Assets/couverture.jpg');
-        background-size: cover;
-        background-position: 45%;
-
-    }
-
-
-    footer {
-        background-color: rgb(201, 219, 39);
-        min-height: 3vh;
-        width: 100%;
-        margin: auto;
-        padding: 10 rem;
-        position: absolute;
-        bottom: 0px;
-
-    }
-
-    .hero h2 {
-        font-size: 1.4rem;
-        color: white;
-        /* border: 1px solid red; */
-
-    }
-
-    .frame_footer {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        align-items: center;
-
-    }
-
-    .frame_footer ul:nth-child(2) {
-        display: flex;
-        margin-right: 2px;
-        list-style: none;
-    }
-
-    .frame_footer ul:nth-child(2) li {
-        margin-right: 2px;
-    }
-
 }
