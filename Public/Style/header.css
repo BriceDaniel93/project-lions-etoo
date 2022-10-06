@@ -6,10 +6,11 @@ header {
     height: 80px;
 }
 
+
 header img {
-    width: 90px;
-    height: 90px;
+    height: 75px;
 }
+
 
 header nav {
     display: flex;
@@ -26,8 +27,6 @@ nav ul li {
     display: flex;
     align-items: center;
     list-style-type: none;
-    /* margin-right: 100px; */
-
 }
 
 header nav ul li a {
@@ -35,7 +34,7 @@ header nav ul li a {
     color: white;
     font-family: arial black, sans-serif;
     margin-right: 30px;
-    font-size: clamp(1rem, 3vw, 2rem);
+    font-size: clamp(0.5rem, 3vw, 1.3rem);
 }
 
 .boutton {
@@ -47,8 +46,7 @@ header nav ul li a:hover {
 
 }
 
-
-@media screen and (min-width: 460px) and (max-width: 720px) {
+<<<<<<< HEAD=======>>>>>>>30acae161a7470cd1b73e16f14480b7435ad632d @media screen and (min-width: 460px) and (max-width: 720px) {
     header nav ul li a:hover {
         text-decoration: none;
     }
