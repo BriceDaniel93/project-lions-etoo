@@ -1,4 +1,4 @@
-/* Global Definition */
+/* Global Definition 2*/
 :root {
     --bgcolor-frame-parcours-palmares: #82C288;
     --bgcolor-frame-formations-langues: #FE9C9C;
@@ -69,12 +69,14 @@ header nav ul li a:hover {
 .contenu {
     width: 100%;
     height: 85vh;
+    min-height: 500px;
     background-image: url('../Assets/couverture.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-self: flex-start;
+
 }
 
 .contenu h2 {
@@ -90,9 +92,7 @@ header nav ul li a:hover {
 
 footer {
     background-color: green;
-    /* height: 20vh; */
     min-height: 2vh;
-    /* margin: auto; */
     padding: 2 rem;
 }
 
@@ -118,18 +118,13 @@ footer {
 }
 
 
-
-/*  CSS for quisuisje */
-
-/* .debug {
-    border: 1px solid red;
-} */
+/*  CSS for quisuisje  */
 
 .frame-main {
     border: 1px solid var(--bgcolor-onglet);
     height: 85vh;
     min-height: 500px;
-    /* min-height: 50vh; */
+
 }
 
 .onglet {
@@ -208,7 +203,7 @@ footer {
 .w-center {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    
 }
 
 .h-center {
