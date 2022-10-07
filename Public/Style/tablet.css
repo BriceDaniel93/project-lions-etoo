@@ -9,37 +9,21 @@ header nav ul li a:hover {
 
 /* Footer  CSS */
 .contenu {
-    background: url('../Assets/couverture.jpg');
-    background-size: cover;
     background-position: 45%;
 
 }
 
 .contenu h2 {
     font-size: 1.4rem;
-    color: white;
-    /* border: 1px solid red; */
-
 }
 
 footer {
-    background-color: rgb(201, 219, 39);
     min-height: 3vh;
     width: 100%;
     margin: auto;
     padding: 10 rem;
-    position: absolute;
-    bottom: 0px;
-
-}
-
-
-.frame_footer {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-
+    /* position: absolute; */
+    /* bottom: 0px; */
 }
 
 .frame_footer ul:nth-child(2) {
