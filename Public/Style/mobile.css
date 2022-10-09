@@ -20,8 +20,6 @@ footer {
     width: 100%;
     margin: auto;
     padding: 10 rem;
-    /* position: relative;
-    bottom: 0px; */
 }
 
 
@@ -32,13 +30,13 @@ footer {
     align-items: center;
 }
 
-.frame_footer ul:nth-child(2) {
+.frame_footer ul:nth-child(2) li {
     display: flex;
-    margin-right: 2px;
+    margin-right: 0px;
 }
 
-.frame_footer ul:nth-child(2) li {
-    margin-right: 2px;
+.frame_footer ul li {
+    font-size: 13px;
 }
 
 /* CSS for quisuisje */

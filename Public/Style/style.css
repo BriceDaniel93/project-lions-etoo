@@ -94,6 +94,7 @@ footer {
     background-color: green;
     min-height: 2vh;
     padding: 2 rem;
+    height: 60px;
 }
 
 .frame_footer {
@@ -122,8 +123,8 @@ footer {
 
 .frame-main {
     border: 1px solid var(--bgcolor-onglet);
-    height: 85vh;
-    min-height: 500px;
+    height: calc(100vh - 80px - 60px);
+    min-height: 600px;
 
 }
 
@@ -203,7 +204,7 @@ footer {
 .w-center {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .h-center {
