@@ -31,7 +31,7 @@
 
                 <!-- Frame globale palmares - Grid 1/4-->
 
-                <section id="section_palmares" class="w-100pct h-100pct w-center h-center">
+                <section id="section_palmares" class="w-center h-center">
 
                     <!-- Frame onglet & logo & bandeau 90% -->
                     <section class="w-90pct h-90pct">
@@ -44,14 +44,14 @@
                         </section>
 
                         <!-- Frame logo &  bandeau -->
-                        <section class="frame-palmares-parcours w-100pct h-90pct">
+                        <section class="frame-palmares-parcours h-90pct">
 
                             <!-- Frame grid logo -->
-                            <section class="grid2r3c h-90pct w-100pct">
+                            <section class="grid2r3c h-90pct">
 
                                 <?php
                                 $imageList = ["img-coppaitalia", "img-UAE", "img-championL", "img-copparey", "img-mali", "img-JO"];
-                                echo displayImage("w-100pct", "h-100pct", "w-center h-center", $imageList);
+                                echo displayImage("w-center h-center", $imageList);
                                 ?>
 
 
@@ -80,7 +80,7 @@
                 <!-- Frame globale formations - Grid 2/4-->
 
 
-                <section id="section_formations" class="w-100pct h-100pct w-center h-center">
+                <section id="section_formations" class="w-center h-center">
 
                     <!-- Frame onglet & logo & test 90% -->
                     <section class="w-90pct h-90pct">
@@ -91,10 +91,10 @@
                         </section>
 
                         <!-- Frame logo & text -->
-                        <section class="frame-formations-langues w-100pct h-90pct">
+                        <section class="frame-formations-langues h-90pct">
 
                             <!-- Frame grid logo & text -->
-                            <section class="grid3r2c h-100pct w-100pct">
+                            <section class="grid3r2c h-100pct">
 
                                 <?php
                                 $imageTextList = [
@@ -102,7 +102,7 @@
                                     "img-kadji" => "La Kadji Sport Academies - centre de formation sportive",
                                     "img-hac" => "Fait ses premières armes avec le football club du Havre",
                                 ];
-                                echo displayImageText("w-100pct", "h-100pct", "w-90pct", "h-90pct", "w-center h-center", $imageTextList);
+                                echo displayImageText("w-90pct", "h-90pct", "w-center h-center", $imageTextList);
                                 ?>
 
                             </section>
@@ -114,7 +114,7 @@
 
                 <!-- Frame globale parcours - Grid 3/4-->
 
-                <section id="section_parcours" class="w-100pct h-100pct w-center h-center">
+                <section id="section_parcours" class="w-center h-center">
 
                     <!-- Frame onglet & logo & test 90% -->
                     <section class="w-90pct h-90pct">
@@ -125,54 +125,49 @@
                         </section>
 
                         <!-- Frame logo & text -->
-                        <section class="frame-palmares-parcours w-100pct h-90pct">
+                        <section class="frame-palmares-parcours h-90pct">
 
                             <!-- Frame grid logo & text -->
-                            <section class="grid3r3c h-100pct w-100pct">
+                            <section class="grid3r3c h-100pct">
 
                                 <?php
                                 $imageList = ["img-intermilan", "img-fcb", "img-rcd"];
-                                echo displayImage("w-100pct", "h-100pct", "w-center h-center", $imageList);
+                                echo displayImage("w-center h-center", $imageList);
                                 ?>
 
-                                <article class="w-100pct h-100pct ">
+                                <article>
                                     <h3 class="w-center">INTER MILAN</h3>
                                     <h3 class="w-center">DIVISION A</h3>
                                     <h3 class="w-center">2011 - 2009</h3>
                                 </article>
 
-                                <article class="w-100pct h-100pct">
+                                <article>
                                     <h3 class="w-center">FCB</h3>
                                     <h3 class="w-center">DIVISION 1</h3>
                                     <h3 class="w-center">2009 - 2004</h3>
                                 </article>
 
-                                <article class="w-100pct h-100pct">
+                                <article>
                                     <h3 class="w-center">RCB</h3>
                                     <h3 class="w-center">DIVISION 1</h3>
                                     <h3 class="w-center">2004 - 1999</h3>
                                 </article>
 
 
-                                <article class="w-100pct h-100pct w-center ">
-                                    <article class="w-25pct h-100pct img-ballon"></article>
-                                    <h4 class="w-center h-center ">77 buts</h4>
+                                <article class="w-center">
+                                    <article class="w-25pct img-ballon"></article>
+                                    <h4 class="w-center h-center">77 buts</h4>
                                 </article>
 
-                                <article class="w-100pct h-100pct">
-                                    <section class="w-100pct h-100pct w-center">
-                                        <section class="w-25pct h-100pct img-ballon"></section>
-                                        <h4 class="w-center h-center">37 buts</h4>
-                                    </section>
+                                <article class="w-center">
+                                    <section class="w-25pct img-ballon"></section>
+                                    <h4 class="w-center h-center">37 buts</h4>
 
                                 </article>
 
-                                <article class="w-100pct h-100pct">
-                                    <article class="w-100pct h-100pct w-center">
-                                        <article class="w-25pct h-100pct img-ballon"></article>
-                                        <h4 class="w-center h-center">33 buts</h4>
-                                    </article>
-
+                                <article class="w-center">
+                                    <article class="w-25pct img-ballon"></article>
+                                    <h4 class="w-center h-center">33 buts</h4>
                                 </article>
 
                             </section>
@@ -186,7 +181,7 @@
 
                 <!-- Frame globale langues - Grid 4/4-->
 
-                <section id="section_langues" class="w-100pct h-100pct w-center h-center">
+                <section id="section_langues" class="w-center h-center">
 
                     <!-- Frame onglet & logo & test 90% -->
                     <section class="w-90pct h-90pct">
@@ -197,25 +192,25 @@
                         </section>
 
                         <!-- Frame logo & text -->
-                        <section class="frame-formations-langues w-100pct h-90pct">
+                        <section class="frame-formations-langues h-90pct">
 
                             <!-- Frame grid logo & text -->
-                            <section class="grid2r3c h-100pct w-100pct">
+                            <section class="grid2r3c h-100pct">
 
                                 <?php
                                 $imageList = ["img-francais", "img-anglais", "img-espagnol"];
-                                echo displayImage("w-100pct", "h-100pct", "w-center h-bottom", $imageList);
+                                echo displayImage("w-center h-bottom", $imageList);
                                 ?>
 
-                                <article class="w-100pct h-100pct w-center h-center">
+                                <article class="w-center h-center">
                                     <h3>FRANCAIS</h3>
                                 </article>
 
-                                <article class="w-100pct h-100pct w-center h-center">
+                                <article class="w-center h-center">
                                     <h3>ANGLAIS</h3>
                                 </article>
 
-                                <article class="w-100pct h-100pct w-center h-center">
+                                <article class="w-center h-center">
                                     <h3>ESPAGNOL</h3>
                                 </article>
 

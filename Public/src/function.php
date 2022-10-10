@@ -17,11 +17,11 @@ function Palmares(): string
     return $desc;
 }
 
-function displayImage(string $width, string $height, string $justify, array $imageList): string
+function displayImage(string $justify, array $imageList): string
 {
     $string = "";
     foreach ($imageList as $img) {
-        $string .= '<article class="' . $width . " " . $height . " " . $justify . '">';
+        $string .= '<article class="' . $justify . '">';
         $string .= '<article class="' . $img . '">';
         $string .= '</article></article>';
     }
@@ -29,15 +29,14 @@ function displayImage(string $width, string $height, string $justify, array $ima
     return $string;
 }
 
-
-function displayImageText(string $width, string $height, string $widthT, string $heightT, string $justify, array $imageTextList): string
+function displayImageText(string $widthT, string $heightT, string $justify, array $imageTextList): string
 {
     $string = "";
 
     foreach ($imageTextList as $img => $text) {
-        $string .= '<article class="' . $width . " " . $height . " " . $justify . '">';
+        $string .= '<article class="' . $justify . '">';
         $string .= '<article class="' . $img . '"></article></article>';
-        $string .= '<article class="' . $width . " " . $height . " " . $justify . '">';
+        $string .= '<article class="' . $justify . '">';
         $string .= '<article class="' . $widthT . " " . $heightT . " " . "h-center" . '">';
         $string .= '<article><h2>' . $text . '</h2>';
         $string .= '</article></article></article>';
