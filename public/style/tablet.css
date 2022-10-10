@@ -1,0 +1,53 @@
+/* header */
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+}
+
+/* Footer  CSS */
+.contenu {
+    background-position: 45%;
+
+}
+
+.contenu h2 {
+    font-size: 1.4rem;
+}
+
+footer {
+    min-height: 3vh;
+    width: 100%;
+    margin: auto;
+    padding: 10 rem;
+    /* position: absolute; */
+    /* bottom: 0px; */
+}
+
+.frame_footer ul:nth-child(2) {
+    display: flex;
+    margin-right: 2px;
+    list-style: none;
+}
+
+.frame_footer ul:nth-child(2) li {
+    margin-right: 2px;
+}
+
+
+/* quisuisje.css */
+
+h1 {
+    font-size: 16px;
+}
+
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 14px;
+}
