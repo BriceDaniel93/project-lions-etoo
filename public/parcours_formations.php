@@ -31,41 +31,41 @@
 
                 <!-- Frame globale palmares - Grid 1/4-->
 
-                <!-- <section id="section_palmares" class="w-center h-center"> -->
+                <section id="section_palmares" class="w-center h-center">
 
-                <!-- Frame onglet & logo & bandeau 90% -->
-                <section class="w-90pct h-90pct">
+                    <!-- Frame onglet & logo & bandeau 90% -->
+                    <section class="w-90pct h-90pct ">
 
-                    <!-- Frame onglet palmares -->
-                    <section class="w-30pct h-10pct w-center h-center onglet">
-                        <article>
+                        <!-- Frame onglet palmares -->
+                        <section class="w-30pct h-10pct w-center h-center onglet">
                             <h1>PALMARES</h1>
-                        </article>
-                    </section>
-
-                    <!-- Frame logo &  bandeau -->
-                    <section class="frame-palmares-parcours h-90pct">
-
-                        <!-- Frame grid logo -->
-                        <section class="grid2r3c h-90pct">
-
-                            <?php
-                            $imageList = ["img-coppaitalia", "img-UAE", "img-championL", "img-copparey", "img-mali", "img-JO"];
-                            echo displayImage("w-center h-center", $imageList);
-                            ?>
-
-
                         </section>
 
-                        <!-- bandeau affichant les resultats -->
-                        <section class="w-100pct h-10pct">
+                        <!-- Frame logo &  bandeau -->
+                        <section class="frame-palmares-parcours h-90pct">
 
-                            <section class="bandeau-palmares">
-                                <article>
+                            <!-- Frame grid logo -->
+                            <section class="grid2r3c h-90pct">
 
-                                    <h1><?= palmares(); ?></h1>
+                                <?php
+                                $imageList = ["img-coppaitalia", "img-UAE", "img-championL", "img-copparey", "img-mali", "img-JO"];
+                                echo displayImage("w-center h-center", $imageList);
+                                ?>
 
-                                </article>
+
+                            </section>
+
+                            <!-- bandeau affichant les resultats -->
+                            <section class="w-100pct h-10pct">
+
+                                <section class="bandeau-palmares">
+                                    <article>
+
+                                        <h1><?= palmares(); ?></h1>
+
+                                    </article>
+                                </section>
+
                             </section>
 
                         </section>
@@ -73,8 +73,6 @@
                     </section>
 
                 </section>
-
-                <!-- </section> -->
 
 
                 <!-- Frame globale formations - Grid 2/4-->

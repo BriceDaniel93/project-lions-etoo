@@ -125,8 +125,14 @@ footer {
     border: 1px solid var(--bgcolor-onglet);
     height: calc(100vh - 80px - 60px);
     min-height: 600px;
-
 }
+
+/* 
+.frame {
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+} */
 
 .onglet {
     border-radius: 10px 10px 0 0;
@@ -138,13 +144,11 @@ footer {
 .frame-palmares-parcours {
     border-radius: 0px 10px 10px 10px;
     background-color: var(--bgcolor-frame-parcours-palmares);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .frame-formations-langues {
     border-radius: 0px 10px 10px 10px;
     background-color: var(--bgcolor-frame-formations-langues);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -161,8 +165,6 @@ footer {
     width: 100px;
     color: var(--bgcolor-onglet);
     font-size: 20px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
 }
 
 .bandeau-palmares> :first-child {
@@ -313,6 +315,8 @@ footer {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 p,
