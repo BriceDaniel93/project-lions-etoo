@@ -1,6 +1,6 @@
 <?php
 
-function Palmares(): string
+function palmares(): string
 {
     $desc = "1 Mondial des clubs: 2010 (Inter)";
     $desc .= " - 1 Coupe Intercontinentale: 1998 (Real Madrid)";
@@ -22,8 +22,8 @@ function displayImage(string $justify, array $imageList): string
     $string = "";
     foreach ($imageList as $img) {
         $string .= '<article class="' . $justify . '">';
-        $string .= '<article class="' . $img . '">';
-        $string .= '</article></article>';
+        $string .= '<article class="' . $img . '"></article>';
+        $string .= '</article>';
     }
 
     return $string;
